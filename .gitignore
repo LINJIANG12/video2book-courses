@@ -1,0 +1,42 @@
+# ============================================================
+# video2book-courses — 收录规则
+#
+# 本仓库只归档「交付物 + 逐字稿」，不收录媒体原件与流水线中间件。
+# 被忽略的文件仍保留在本地工作区，可用 Video2Book 继续增量处理。
+# ============================================================
+
+# ---- 媒体原件：体积过大，可由 Video2Book 重新生成 ----
+audio/
+*.m4a
+*.m4s
+*.mp3
+*.wav
+*.mp4
+*.flv
+*.mkv
+
+# ---- 任务书与调度中间件 ----
+*_TASK.md
+.dispatch_log.jsonl
+
+# ---- 账本与语义规划 ----
+manifest.json
+parts.json
+topic_plan*.json
+note_plan*.json
+
+# ---- 知识元中间产物（逐字稿 subtitles/*.txt 保留，kernels 不收录）----
+kernels/
+
+# ---- 备份与临时产物 ----
+.backup*/
+*.bak
+*.bak*
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+__pycache__/

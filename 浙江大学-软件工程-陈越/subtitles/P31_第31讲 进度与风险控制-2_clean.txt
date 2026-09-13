@@ -1,0 +1,99 @@
+以下是该段音频的逐字忠实转录：---**00:00 - 00:32**就是 risk management。就是一个好的项目经理，一个合格的项目经理，一定是一个……非常合格的风险评测或者风险预测人员。否则的话，会经常使自己控制的项目暴露在风险里面，暴露在风险里面。那么这节课的话呢，我们就讲一下 risk management。
+
+**00:32 - 01:42**那么 project risk 主要是注意哪些要点呢？第一个，what can go wrong？是吧？有什么有可能按照预想预先设定的路线来的？或者没有预先设定……不是按照我们预先设想的预期来的？那么就容易给我们项目带来一些风险，带来一些风险。比如说一些关键的技术岗位的人员离职，这本身是个风险吧？
+
+有一些不成熟的一些技术攻关，对吧？也会给大家带来风险吧？带来风险。还有一些时间上的 dependency。你比如说你 dependency 在硬件采购、软件采购，否则你的项目就无法继续进行。那么 dependency 本身就有可能给你带来风险。那么硬件和软件能够及时地到位？**01:42 - 02:11**What can go wrong? What's the likelihood? 那么主要是说可能性有多少？
+
+可能性有多少？那么可能性呢，也是大家采取……可能性越高的，是越当然是越容易发生的 risk，对吧？那么可能性需要项目管理人员进行，或者是项目团队的人员进行详细的评估。**02:11 - 03:12**另外呢一旦发生的话会给你的 damage 有多大？damage 有多大？那我们说我们在研发过程中，比如说 earthquake，对吧？
+
+地震，也有这种可能性？这种可能性，比如说如果在一些非地震区，那可能是可能性是比较低的。但是也有可能性发生。但一旦发生，它的 damage 非常大，是吧？非常大。那么有一些的话呢，它发生的可能性是比较高的，比如说一些关键岗位的人员出现了一些非确定性因素的一个离职。那么可能性比较高，那它带来的 damage 如果你做到一个很好的风险……风险的规避或者是风险控制的话，那么有可能就是可以把 damage 缩得很小，缩得很小。
+
+**03:12 - 03:47**还有另外呢就是 what can we do about it? 就说你识别出风险了，也识别出它的可能性了，那么一旦发生了，或者是在发生之前，我们可以避免它发生？避免它发生。那么就是我们用来对于风险做一些监控，做一些规避等的一些手段了。那么这几个……这四个问题，是 project risk 必须回答的。
+
+**03:47 - 05:30**Project risk management 呢，基本上有……有两个大方向上的管理思路。一种是 reactive 的 risk management。也什么？叫什么？中文应该翻译成应对式的，应对式的。一旦发生了，那么要积极应对，是吧？那主要是发生的时候呢，我们 project team 要 react to the risk，就是要投入到 risk 的管理、解决里面。
+
+另外就是 mitigation，要有一些 plan for additional resource in anticipate of the fight... firefighting。就说你要有一些计划，万一某个 risk 发生了，那么谁来救火？或者是有哪些资源能够用到这次发生的 risk 里面，能够有效地去解决它？
+
+对吧？那么是 mitigation。另外呢，一旦出现一些 failure，我们要及时地去 fix，及时去 fix。那么 resource 之前，之前都要进行很好地一个 plan，很好地一个 plan。另外呢就是 crisis management。万一你现在能够支配的这些 resource 也解决不了你现在遇到的这些 risk，怎么办？
+
+相当于出现危机了是吧？项目有可能是出现比较大的风险了。那么你也需要做一些 crisis management，一些危机……一些危机管理了，一些危机管理。**05:30 - 07:51**那么第二种 risk management 我们可叫做 proactive，proactive 的 risk management。
+
+也你要有一定的预见性了，要有预见性了。那第一个呢就是 formal 的 risk analysis。一定要在你的项目管理里面是一个必须 perform 的一个……一个任务，一个任务。另外呢就说任务也不光是项目经理一个人做的，那么可以整个的研发团队都来参与到识别 risk 里面。这比做得要比较正式，比较正式比较完善。
+
+另外呢要有 organization corrects the root cause of the risk，就 TQM concept and statistic SQA。是指全局的 Total Quality Management 这种 concept，要有全局的质量意识，质量意识。比如说硬件体系、系统层体系、那么软件层体系，那么项目在整个的体系下，那么哪里会存在着一些风险？
+
+哪里会存在着一些风险？另外呢有一些 statistic SQA 作为……作为参考。还有呢就是 examining risk sources and light... beyond the bonds of the software。就说有哪些 risk 的来源吧，就说我们的 risk 的有可能产生 risk 的地方，要做到比较详细的一个分析。
+
+另外呢就是 developing the skill to manage the change。就很多的时候呢，risk 是由变化引起的。那么我们针应对变化，一定要做到比较好的一个方法，和事先设好相应应对变化的手段、措施。**07:51 - 08:23**那么有七条的原则，七条的原则。那么第一条呢就是 maintain a global perspective，maintain a global perspective。
+
+主要是有要有一个全局的视野。在项目上的全局的视野，包括 business 的 problem ，一些 system 的 context。如果这些没有这种全局的视野的话呢，你在识别 risk…………个时候容易只识别出片面，就是一部分的 risk，而不是全局的比较重要的 risk。另外就是 take a forward-looking view。
+
+， think about the risk that may arise in the future, establish the contingency plan。我们也要有一个……这是下课铃声。我们也要有一个向前看的这种这种视野，就是如果什么环节发生了什么个 risk，那么我们该有一个什么样的 plan 去应对，去应对。
+
+另外呢就是 encourage open communication。就是我们每个，有可能每一个项目的成员，他都会在某些环节发现一些项目经理没有意识到的这种 risk。那么应该是一个 open 的 communication，就是大家不能是说仅是 manager 你才去识别 risk，其他人就不管 risk。
+
+那必须是在一个开放的环境下。另外就是 integrate。A consideration of the risk must be integrated into the project software process。就说 risk 管理和 risk 的考虑，要在整个的软件的研发过程里面，要把它有机的集成进去，对吧？
+
+在项目启动之前，我们也要有正规的 risk analysis。那么在过程中有新的 risk 也要加进来。那么对一些已经识别的 risk，要做到有效的跟踪，有效的跟踪。另外就是 emphasize a continuous process。整个的过程，在识别的过程，要有要要 modifying identified risk as more information is known, and adding new ones as a better insight is achieved。
+
+就是要有如果有新的 risk 也要把它加进来。Develop a shared product vision。那么大家呀要对……就说包括 stakeholder，要对软件的 vision ，大家要保持一致，保持一致。如果我理解的研发团队理解软件是未来是什么样的，和真正的终端用户和 customer 理解的不一致，那么 risk 就是最大的。
+
+那么我们在需求分析阶段，我们也讲过一个，即使是 stakeholder，即使是 customer 内部，也有可能不同的人有不同对于 target software 的不同的理解，对吧？，比如说部门期望软件是这样的，另外一个部门期望软件是那样的，那么你具体你要满足哪一个部门的要求呢？如果不是 everyone on the same page，如果不是这样的一个状态的话，你的项目 risk 就比较高。
+
+你的项目 risk 就比较高。另外就是 encourage teamwork。就是一个团队，必须整个的 stakeholder 是一个团队的作战，那么才有可能对 risk 的有效的一个规避。好，我们休息，休息一下。---那么 risk management 几个步骤，那么主要是，首先要识别出 risk，identify；然后要分析 risk，是吧？
+
+要有一些 plan，我们如何应对 risk，如何应对 risk。另外呢就是跟踪， risk 一旦发生了，那么我们要做到及时的控制。那么是一个循环的过程：identify, analysis, plan, track, and control, and control。那 risk identification 识别这块的话呢，就是主要考虑到，比如说 product size ，项目的规模呀，还有 business 的 impact，customer 的 characteristics，是吧？
+
+我们客户的一些特点；还有一些过程的定义成熟；development environment，开发的环境；还有 technology to be built，你的技术的复杂度，复杂度。另外呢就是 staff size 和 experience，就是参与人员的经验。Assessing project risk，主要 have top software customer managers formally committed to support the project？
+
+那么，客户这块的经理，或者是高层人员，已经对于我们现在的项目是积极的认可？认可？另外终端用户已经认可了我们现在的整个的项目，要 build 的系统？整个的工程项目团队已经完全理解了需求？那么这些都是 assessing project risk 里面的需要注意的要点。Customer, have the customer have been involved fully in definition of the requirements?另外呢用户有 realistic expectation，expectation？
+
+就是他对我们的预期合理的？从技术角度那是合理的，从项目管理角度也是合理的，是吧？那么有一些我们遇到过一些项目，有一些建设单位他提出了很多不合理的要求，比如说本来是半年的需要半年完成的这样的项目，那他需要两个月就要上线，就提出来非常 aggressive 的这些要求。那么这些都会给你的项目带来比较大的风险，是吧？
+
+那么你如果是完全按照客户要求的方式去做，那有可能你最后是发现 meet deadline，发现 miss deadline 了，或者是 out of  budget，是吧？等等的风险。那如果说是你不考虑客户的意见，那么一些 client engagement 方面呢又出现一些问题。所以这些风险，需要 project manager 和整个的研发团队需要有个 balance。
+
+另外呢就是 project scope  stable，会不会经常变化？那我们也遇到只给我们写了个邮件 email 就想让我们就是进入软件研发阶段了，那么变化随时……以下是该段音频的逐字忠实转录：---随着研发过程中会不断地出来。那么这样的话呢，会给你的软件带来研发带来比较大的风险。另外就是团队的 skill 、项目需求等等的其他的一些 project risk 都需要做 assessing。
+
+Risk components，包括 performance risk。我们开发系统，与需求可能不符合，本身是 performance，软件系统的 performance risk。另外就是 cost risk，是吧？有时候是200万的项目，那么你 cost 的最后操作下来用了300万，那么 risk 就很高了，在这尤其在商业环境里面，是绝对是不允许的。
+
+另外就是 support risk。遇到问题了或者是做一些投产后的这些 support，那会有相应的风险？另外就是 schedule risk，schedule risk。那么 schedule risk 呢，我给大家举个例子。比如说我们曾经开发过一个股票交易系统，那么股票交易系统呢，是在北美市场上运行的。
+
+那么在美国的它的证券监管委员会，因为他的一些监管规则，他的交易规则发生了一些变化，需要在一个月之后，变化要反映在交易系统里，否则交易系统无法参与就是真正的日常交易了。那我们看 schedule 非常紧张是吧？不允你 miss deadline。那么当时我们在 schedule 这块，我们就是作为一个比较高的 risk 去评估的，去评估的。
+
+那么比如说他要求一个月之内就要把规则发生的這個变化反映到系统里，并且上线。那就需要做很多的回归测试，并不是说程序员修改代码然后就可以上线了，要做很多的回归测试。那么这些需要就是花费大量的时间，花费大量的时间。那么我们需要制定一个 plan 去怎么样控制 schedule，能够在一个月之内完成。本身就是 schedule 相关的一个 risk。
+
+Risk projection，also called risk estimation。risk 的评估，在 risk management 里面是非常重要的。识别出 risk 之后，刚才识别 risk，是吧？那么 risk 出识别出来之后呢，我们就要评估它的可能性，可能性，发生的可能性。比如说你是 schedule 方面的，还是 cost 方面的，大概它有多少的可能性会发生。
+
+另外呢就是发生之后会引起什么样的 consequence，会引起什么样的后果？会引起什么样的后果？那比如说刚才我说的 risk，如果真的不能在一个月之后，六月当时是6月15号，不能在6月15号上线，新的软件版本不能上线的话，那么会给对方的公司每天带来几百万美金的损失。股票交易是有佣金的，是吧？那么他 broker 如果不能运行，不能 provide this service，那么这些 trader 就不能在平台交易，那么他也就没有 commission。
+
+那么这是一个 risk table。在一个 risk management 里面呢，是缺不能缺少 risk table 的。主要是说 risk 是什么 risk？它的 probability，发生的概率是多少？priority 是多少？它的 impact 是什么样的？那么 risk 的 mitigation 和 monitoring 或者叫 management，这手段如何做？
+
+如何做？比如说我识别出来一个 risk，我的关键的一个关键的软件设计人员，他有可能会有离开团队的一个风险，是吧？那可能性，比如说我们评估他的可能性是多少，影响是对于团队的影响是什么？设计如果是中途中断的话，会是什么样的打击、damage。那么我们做的是什么呢？你的一些规避手段或者一些应对 risk 的计划要拿出来了。
+
+比如说我指定两名技术设计人员，是吧？他们互为 backup。那么万一有一个人出现了一些变动，那么我另外一个人也能顶上，也能顶上。就是这是一个简单的 risk 的应对计划，应对计划。那当然如果复杂的 risk，你就要复杂的很多步骤的 risk 应对计划。Building risk table。那么刚才说的 table ，就是要整个在项目过程中是不断地维护的，不断地维护的。
+
+然后影响的话呢，比如说你可以分成几级，一级到五级。那么 risk 的影响的话呢，我们一般用 risk exposure 去做一个规划。什么叫 risk exposure 呢？就是它的 probability，它 risk 发生的可能性乘以它一旦发生需要多少的 cost，需要多少的 cost。那么它们的乘积就是我们叫 risk exposure。
+
+那么这里面有一个例子：我们开发软件，大概有70%的 software component 可以重用，是吧？重用。那么如果识别出风险的话呢，我们就是真正去看一下我们 impact、impact。那么如果有60个 component，那么大概有18%的…是不能重用的，对吧？70%能重用，那就是30%不能重用。
+
+那就有18个 components 是需要 develop，需要新开发。那么这18个，每一个 component 的平均代码行我们设为100行，100行。那每一行的代码大概是多少 cost 呢？我们这里面规划，每行代码大概是14个美金的 cost。那么乘一下，什么？25万的…25000的 US dollar，是吧？
+
+就是风险一旦发生的 cost。那我们评估下来风险呢，发生的概率大概是80%。那我们的 risk exposure 是多少？0.8乘以25200，对吧？那得到的就是20200，20200。就是作为我们的 risk impact，risk impact。那么 risk mitigation，monitoring 和 management。
+
+那 mitigation 主要是说 how can we avoid the risk？就是我们怎么能…我们意识到了 risk 有可能会发生，但是我们之前…以下为该音频片段的逐字忠实转录与整理：---### **风险应对与风险属性**采取了一些规避手段，让它尽量不要发生，那么就是 **mitigation**（风险缓解/规避）。
+
+**Monitoring**，monitoring 我们要监控 risk 什么时候发生、发生。还有就是 **management**。一旦 risk 发生了，那么我们 baseline 要有一些相应的 **contingency plan**（应急预案）。这边呢是说有一些属性可以影响到 risk 的级别：* **项目的规模（Project Size）**：评估项目的规模一般有两种方式（方法有很多，现在主要采用的有看代码行的，也有看 **function point** 功能点的）；* **业务影响（Business Impact）**：对于他的 business 影响，所带来的哪些方面可以带来这一系列 risk；* **客户因素（Customer）**：由 customer 带来的一些 risk；* **过程成熟度（Process Maturity）**：就是项目的流程成熟所带来的一些 risk。
+
+下面的这些问题是需要在识别 risk 的时候去回答的；* **技术风险（Technical Risk）**：如果是采用了一些并非成熟的技术，都有可能会给你的项目带来风险。我们曾经在做一个股票撮合系统的时候，采用了分布式集群的这种方式。当时一些著名的厂商有一些 **trial version**（试用版），还并不是那么成熟的平台。
+
+我们当时因为种原因采用了平台，也在技术上遇到了不少风险，导致了项目 delay 了好几个月。这些风险原则上应该在项目的执行前或者执行过程中及时被预测出来；* **人员风险（Staff / People Risk）**：刚才我也举了一些例子，比如 people 的 skill、availability（是否可用）。
+
+另外就是有些人他是 part-time 在你的项目里面，那么他的时间如何保证。---### **风险信息记录与 Risk Table**另外呢就是要把它 **risk information** 记录下来。怎么记录呢？一般在业界就是用 **risk table**。当然比咱们课程里面讲的 risk table 要复杂一点：包括 risk 名、risk type、priority、对业务的影响、发生的概率、规避的手段等很多内容。
+
+---### **课堂讨论任务布置**接下来请大家分组，我们再做一次课堂讨论：我们现在正在做的项目是 **online payment** 对吧？今年是 Online Payment Network 系统。你们各个小组分到的是一个模块。请大家从你们本小组的角度和咱们项目全局的角度去考虑：1. 可能会存在哪些风险？
+
+2. 发生的可能性是什么？3. 对整体项目有什么影响？（因为我们现在比较难算 exposure，可以文字描述一下对整体项目有什么影响）4. 规避的手段是什么？有什么样的手段去做 **mitigation**、**monitoring** 或者 **management**？大家做一个 **risk table**，一行记录。
+
+如果做得全可能有十几二十条，每个小组做不少于两到三条你们意识到的 risk，不管是全局项目的也好，还是分配到的 component/module 也好。给十分钟时间，好不好？大家开始讨论。---*(05:40 - 06:17 老师巡视并进一步明确表格填写细节后，余下时间为各小组分组讨论与撰写时间)*这段音频主要为课堂现场作答/交卷环节的环境音（纸张翻动、轻微私语等），期间教师有两次向全班提示交卷：06:31好，写好的请交一下。
+
+写好的你组员签一下名交一下。08:17写完的交一下。
