@@ -1,0 +1,300 @@
+s
+好 那这块的话呢 我们首先呢去创建 一个文件 啊这呢是咱们的 第15章吧 哎 第15章 存储过程与存储 呃与存储函数 行 我这个就加上存储这个两个字了 来 把它呢 Ctrl+C Ctrl+S 啊 Ctrl+V 我们保存一下 第15章 没问题 好 我看一下 这个字稍微小一点吧 嗯 好 这个呢 我们接着说第一个问题 第一个问题的话呢 我们就相当于直接就来了啊 这个创建存储过程 OK 啊 创建存储过程 保存一下 那创建存储过程呢 刚才我们整体这个格式呢 已经说完了 那说完了以后呢 我们下面呢 直接就写这个例子 这个例子的话呢 我这块写了 好几个 咱们就一个一个粘过来 咱们来去写 啊 一个来去写 首先 这么个 哎 说 创建一个存储过程 叫 select_all_data 然后呢 查询一下我们这个 EMP 这个表中的数据 行 那一说到这的话呢 咱们先来一个储备吧 这个咱们来零啊 这个 准备工作 好 首先的话我们 首先的话呢 我们去 create 一个 database 呃 咱们 dbtest15 行 那我们创建一个这个数据库 啊 走起 可以了 然后呢 我们再去 use 一下 啊 dbtest15 好的 选中 没问题 那接下来的话呢 我们这个 dbtest15 里面 其实什么表也没有 F5 刷新一下 这样的话呢 是不是十分不利于咱们下面呢 写这个存储过程 对吧 那怎么办啊 我们这块呢 给它整两张表 咱们 cre-哎 create create 这个 table 那 emp 哎 我叫 employees 也行 就叫 employees 吧 create table employees 然后 as select 呃 select * 然后呢 from at guigudb 这个下面的 employees 咱们把这个 啊 咱们前面讲查询里面呢 用到了这个 employees 的表的数据呢 咱们完整的给它复制一份 啊 就这么着 来 我们走起来 可以了 然后接下来 同样的道理 我们再把那个部门呢 也给它复制一份 方便呢咱们去使用 叫 departments 行 as 嗯 select * from 啊 这个是咱们 at guigudb 的 departments 对吧 好 那这时候我们再去选中了执行 哎 可以了 好 那接下来的话呢 我们再去 select 哎 * from employees 看一下 哦 这呢是咱们当前这个 呃 dbtest15 下面的 来 走起 哎 107 条记录 没问题 好 再接着 哎 select * from 一下 我们 departments 沒問題 來 我們這時候再選中 啊 再執行 好 這個時候呢 我們就有這個數據了 那有這個數據的話 有這個數據的話呢 我們接下來呢 就基於咱們 這兩張表 我們看一下具體的需求 你比如我們這裡邊提到了說 查看 EMPS 這個表中的所有數據 咱們就把它呢 就理解成呢 是咱們這個 employees 表 就可以了 那下面呢 也同樣道理 好 那我們看一下具體怎麼做 呃 這裡邊呢 讓我們創建一個存儲過程 都告訴我們這個需求 呃 這個名稱了 我們就直接來了 啊 create 啊 procedure 這個 首先 這個單詞的話呢 大家不太好寫 多寫一寫 create a procedure 名字呢 已經起好了 直接拿過來 啊 Ctrl+C 啊 往這一放 沒問題 是吧 呃 這裡邊的話呢 其實不涉及到這個參數的問題了 所以我們這就相當於是一個空參的 然後接著呢 是不是就 begin 了 啊 咱們那個特性的話呢 在這裡邊 就是咱們整理先了解一下 啊 了解一下就行 我們這呢 就不涉及到這個特性的問題了 所以直接呢 begin 跟那個 end 是吧 哎 end 這塊呢 咱們默認情況下呢 是不是我要寫一個分號來結束了呀 啊 要寫分號結束的 咱們沒有寫那個 DELIMITER 是吧 這個咱們一會兒去說啊 一會兒去說 然後呢 此時的話呢 我們要幹什麼事呢 查看 employees 表中的所有數據 那那不就是 select * from 一下 那 employees 嘛 哎 就這樣唄 好 那麼這樣的情況下呢 你看我這時候去做個 首先咱們在這裡邊 我 F5 刷新一下 你看存儲過程這塊是不是啥也沒有 來 我們這時候呢 把它選中 做一個 執行 你看 這時候呢 是不是就掛了 哎 這就掛了 那怎麼辦呢 這個呢 就咱們就說到那個風格符 DELIMITER 啊 用它 哎 用那個 $ 符也行 啊 用 $ 符的話呢 這個表示 遇用它來表示這個結束 那所以說我們這個位置呢 就用個 $ 符 那結束了以後呢 你再 咱們再給它改回去吧 DELIMITER 然後咱們再用分號結束 啊 就是頭跟尾呢 咱們下面呢 創建 所有的存儲過程和存儲函數的時候呢 大家呢 都記得頭尾呢 相當於是以這個開始 以這個結束 啊 這樣子 好 那這時候我們再去選中 咱們跑一下 嗯 可以了 可以以後呢 你看這時候我們在這 F5 刷新一下 大家你會發現呢 你看這時候是不是多了一個存儲過程啊 select_all_data 哎 就我們這時候寫的它 哎 這就相當於是創建成功 哎 創建成功 那創建成功以後呢 呃 這個大家可能就會想 那那我該如何去調用呢 是這意思吧 來 我們順帶著把這個就說一下 啊 這個叫 存儲過程的調用 哎 它的一個調用 這個調用的話呢 其實也會不同的存儲過程呢 也稍有不同 因為呢 我們有時候呢 裡面會包含這個參數 對吧 那對於我們這個沒有參數的話呢 相對比較簡單一些 啊 這個調用的話呢 我們用的全都是這個 CALL 函數的話呢 我們不是講完存儲過程 下邊講函數 函數調用呢 用的是 SELECT 那我們這個存儲過程調用呢 叫做 CALL CALL 誰呢 是不是就 CALL 它呀 哎 就這樣唄 哎 就可以 哎 這沒有參數嘛 就比較省事 那 我們剛才已經 DELIMITER 這塊恢復成這個分號了 所以我們現在用分號呢 表示的是你這個 哎 是不是這個語句整個就結束了呀 好 我們選中執行一下 大家會發現呢 是不是我們整個呢 就查出來 107 條記錄 是吧 此時的話呢 我們相當於是把整個呢 你這個 豐富的操作 就封裝在我們這個函數裡邊了 我們調用函數呢去 哎 呵呵 說錯了 封裝在我們這個存儲過程裡了 是吧 哎 然後呢 直接呢去調用這個存儲過程啊 就 OK 了 啊 只不過這裡邊我們存儲過程呢 寫得比較簡單 讓你感覺說好像也差不太多 那一旦呢 我們這裡邊 比如說寫上百十來行代碼 這時候你直接調一下存儲過程 你就看出來 哦 原來還是挺簡潔的 啊 就是這個意思 行 那接著我們再 舉其他例子 啊 給大家呢多練一點 啊 其實這塊呢 也沒啥別的了 就多寫 多寫呢就熟悉了 看這個 說 創建一個存儲過程 它 返回所有員工的平均工資 其實跟上面這個整體形式上差不太多 就我們 create 一個 procedure 把它這名字呢 我就直接粘過來了 嗯 Ctrl+C 啊 粘過來 好 然後接著呢 我們 begin 是吧 嗯 查詢一下呢 叫返回所有員工的平均工資 OK select 那我們叫 avg 的一個 salary 哎 from 一下 employees 是這意思吧 然後呢 下邊我們要寫 end 了 那記得開頭呢 我們再這樣一下 啊 Ctrl+C 哎 這個 哎 這塊的話呢 我們說常用的話呢 一個是 $ 符 一個呢 就是這個符號 好 end 一下 那就這樣唄 然後接著呢 再 DELIMITER 那你再給它恢復過來 哎 這就 OK 了 行 那這時候我們選中了 再去做一個執行 嗯 可以了 然後你這塊呢 看一下 F5 一刷新 是不是又多了一個 哎 沒問題 好 下邊我們相當於是調用 咱們這個存儲過程 還是用這個 CALL 行 然後呢 我們把這個呢 直接是不是調用一下就行 因為這個函數呢 它是沒有參數的 啊 行 那我們這塊直接就小括一下就 OK 了 來 我們選中執行 這就出來了 相當於呢 就是整個公司中所有員工的平均工資呢 是 6461 啊 咱們講查詢的時候呢 也都做過 大概這個數能看 都沒有問題 啊 好 接著 我們再來看下面幾個題 哎 Ctrl+C 翻過來 呃 好 說呢 創建存儲過程 它 呃 這個咱們就直接 一邊說就一邊寫了 所以先把這個儲備的工作呢 咱們先做好 好 在這 create 嗯 這個 procedure 這個呢 叫 show_someone_salary 啊 顯示一下個別人的工資 哎 就這個
+
+> ⏱️ **续读下一分卷参数**: `start_time="00:15:00", duration_minutes=15.0`
+
+Uh, and then
+Find the salary of a certain employee and use IN parameter to specify which employee you are looking for. So we will start with IN.
+It's called emp_name, right?
+Remember that the name of this employee must be a name. Specify the type of this field. Don't write it wrong.
+Okay, the next is the begin.
+Okay.
+So what we are going to do now is to query the salary of a person, then we have to query.
+Select. Is it called salary?
+from employees, and then where.
+This is called last_name =
+Is it equal to the value we just passed in?
+That's what it means.
+This will do. And finally, we will come to an end.
+It's quite simple, actually, right?
+Okay, let's select it and execute it.
+Okay, it works. Then at this time, let's take a look at this call problem below.
+Come, let's call below.
+So if we call, we actually still use the CALL.
+As long as it is the call of the stored procedure, we use this CALL.
+The call is it.
+This we take over. And now, we want to call this function, stored procedure, we need to pass this value.
+Pass a value. You can write it directly here. For example, we want to query
+This Abel.
+Query what the salary of this person is, then we directly select.
+Execute.
+His salary is 11,000.
+If you're not sure about this answer, you can check it again.
+We can do it directly.
+select * from employees where
+last_name = 'Abel';
+Like this, right?
+Okay, let's select it and execute it.
+Abel, his salary is indeed 11,000, no problem.
+No problem.
+Fine, this is a call, let's call it Calling Method 1.
+Calling Method 1.
+Actually, it can also be like what?
+Let's see.
+Calling Method 2.
+Um, this can also be like, that is, we directly pass a constant, just pass it in. If we can pass it in the form of a variable?
+Sure, that's a little bit more complicated.
+We will expand this in the next chapter to talk about variables. If we customize the variable, we will use an @ symbol to represent it. If it is system, it's two. Let's use one.
+With one, our emp at this moment
+We call it name, right? I gave him a value.
+This I use equal. What's the name? Called Abel.
+Understood, right? And then, when you go to call, we Ctrl+C.
+Take it over. When you call, do we put this variable here?
+That's what it means.
+Can you see it clearly?
+Okay, let's select it and execute it.
+Is it still 11,000? No problem.
+Then at this position, this is called equal.
+This can also use the colon equal.
+This is definitely an assignment symbol.
+It is also 11,000. That is, the equal or the colon equal is okay.
+This clearly means the assignment symbol.
+Keep an eye on this.
+Well, in this way, we have made this clear.
+Then our practice is mainly to practice this IN, right?
+The above is to
+bring an OUT.
+No problem, this is our Type 3.
+Let's stop here.
+Then, let's look at the next one.
+Ctrl+C.
+Paste it over.
+Like this.
+In this case, we have both IN and OUT.
+So this is a new type.
+This is
+This is our Type 4.
+With IN and
+OUT.
+Let's take a look.
+First of all, our overall thinking. DELIMITER, let me write it first.
+DELIMITER, and then we'll use this first.
+DELIMITER.
+Then we change the semicolon back, right?
+If you don't change it back, you can see that the block below is always dropped, and it always ends with a semicolon.
+So everyone is used to having the first one open and the other one end, and it's over.
+And then in the middle, we CREATE
+PROCEDURE.
+And then the name has been set, take it directly, Ctrl+C, put it here.
+Check the salary of a certain employee in our employee table.
+One with IN.
+Let's write IN first.
+Called emp_name, which is of VARCHAR type.
+Here, we will give a 20.
+And then a comma.
+There is also an OUT parameter called emp_salary.
+Note that I deliberately wrote it as DECIMAL. Let's see if it works.
+(10,2)
+like this.
+I wrote it as DECIMAL.
+emp_salary, okay, no problem. And then the following is BEGIN.
+Let's query what the salary of this employee is.
+This is relatively simple.
+Then SELECT.
+SELECT
+What?
+What is the salary of this employee?
+SELECT, we call it salary.
+And then INTO, didn't we say that before? When OUT.
+INTO our emp_salary,
+and then FROM the employees table, where
+last_name =
+our emp_name.
+You may not be clear about this, you can remove it first.
+Here is the most familiar, is it to query the salary of the employee with the specified name, right?
+Then after you query the salary, you INTO it into such a variable, and that will be fine.
+So, regarding the stored procedure, you can also not call it a return value.
+It's just that it's like after you pass the variable in, and then you do a bunch of operations in it to write the data into the variable.
+Then you, because it is the variable passed in, just like we did just now, you pass in a variable.
+This, this is not suitable, use the above. This is also fine.
+We passed in a variable, then here I go to take the value of this variable, can take it, right?
+This is normal.
+So we say that OUT embodies a kind of return.
+It embodies a kind of return, but don't understand it as a return value in the true sense.
+Because only functions have return values in the true sense.
+Is that right?
+Okay.
+Let's pull this back.
+This is it. Let's add an END here.
+Remember to use this for END.
+Okay.
+At this time, if I execute it at this time, there will be some problems. Let's go.
+In this block, right?
+This block, this block is okay.
+This block did not prompt any problem.
+Our salary2, okay.
+Okay.
+What am I worried about?
+Everyone can understand, right?
+You see our position.
+For this position, what I wrote is called
+this is called DECIMAL.
+Because in our employee table, we also saw that all the employees' salary are of DOUBLE type.
+Then I use this type, which is actually a certain risk.
+It's a certain risk.
+You just see how your variable is actually used inside.
+You must match the one in your existing table.
+For example, if you want to write this to here, then certainly this type,
+including the size of the space it stores, is it best to have the same type as this one, and you can make the range larger, but you can't make it smaller.
+Be careful with this.
+Well, no error is reported now. If no error is reported, let's go straight down.
+The following is calling.
+No problem.
+If you call, we will directly call this method.
+I said wrong. Call our stored procedure.
+It's it.
+Then at this time, we need to pass things inside, right?
+Need to pass this data.
+Let's use semicolon.
+We can SET it.
+This is called emp_name first.
+Let's pass a value to them.
+Let's still call Abel.
+Pass this Abel.
+Okay, and then Ctrl+C it.
+Let's pass it in.
+The first one passed is equivalent to your IN above.
+And then the back is what we want to pass out, then I will write directly here, emp is called salary.
+No problem, right?
+Then after the final finish, we can pass this SELECT
+Let's take a look at the value of your variable.
+Then it is equivalent to the salary of Abel that you recorded.
+You can also select all, or we can separate. You select this first, let's run it.
+No problem, right? And then after we select this, we execute it.
+11,000, and it came out.
+And it came out. Okay.
+Just do it.
+Or we can select the whole to execute.
+It is also okay, right, it is also okay.
+Fine, this block did not report an error.
+It is equivalent to an implicit conversion between our DOUBLE and this DECIMAL.
+However, if other types do not have implicit conversion, please don't take it for granted.
+Don't take it for granted.
+Including our range is also the same.
+Then at this time, if the salary written by others is (15,2), I just give an example.
+(15,2), if you want to write this as (10,2), and our salary may indeed exceed the integer part of our integer is 8 digits, then our integer is equivalent to 13 digits.
+Then if this salary may indeed exceed your integer part 8, if you INTO this, wouldn't it be bad?
+So, everyone, regarding this, you want to put this into this variable, and when you define the type of this variable, don't use your imagination.
+Just see how they defined it here.
+I am using it to explain this problem to you.
+Okay, this is our Type 4.
+Cancel one, this Type 4.
+Earlier, when we talked about the type of this stored procedure,
+I told you that there are five types in total.
+Right? Five types.
+Look up again.
+1, 2, 3, 4, 5. Are we still missing one of it?
+With this IN and
+with INOUT, this type.
+This one.
+Okay, then we still have a topic left here. This topic is specifically for practicing it.
+Um, this is looking up.
+Here it is. Let's Ctrl+C this.
+The examples here are all carefully designed.
+It still took some time.
+Let's take a look.
+A bit long.
+Okay, it's fine.
+First of all, as long as you write this stored procedure, including our stored function, you don't read the question first.
+First, DELIMITER, right?
+Dollar sign is also fine. We always use the double slash, let's use the dollar sign.
+And then DELIMITER
+ends with a semicolon.
+Here. To CREATE
+PROCEDURE.
+It is called show_mgr_name.
+Ctrl+C, Ctrl+V, paste it over. Okay, this parenthesis goes over.
+And then let's take a look, saying query the name of a leader of a certain employee.
+And using INOUT parameter, it enters the employee's name,
+and then outputs the leader's name. They are all expressed by this one variable. Okay.
+INOUT, interesting.
+This is called emp_name, right?
+The name of this employee is of VARCHAR type.
+To be on the safe side, if you are not sure about the range behind, what should you do?
+Do you have to first look at our DESC employees?
+Right?
+And then we select it and execute it.
+Because our variable is mainly used to characterize who, that is, the name of our employee, then we will characterize him with this field.
+This is 25, so at this position, you should write at least 25, right?
+If you write more, it's unnecessary. Just write 25.
+Writing more is a waste, and if it's less, there may be problems, because if the employee's name is 20, and you write 15,
+then you may not be able to plug it in, right?
+That's the problem.
+Okay, then BEGIN.
+Let's see how to write.
+This question, the following writing method actually mainly examines everyone's SQL skill.
+Or it is mainly a query skill.
+What do I want to check? The name of a leader of a certain employee.
+Then you have to first find out the ID of the leader of this employee, and then find the name of the leader based on this ID.
+Actually, you have to use a subquery.
+Do you still remember subquery?
+Let's first find out the manager_id of this employee.
+Let's write from inside to outside.
+from employees, and where what?
+This is called last_name =
+what we just wrote.
+It's it.
+Okay.
+And here we find out this is called manager_id.
+And then based on this manager_id, we will query
+his, this is called last_name, from this employees, what is it?
+where
+this employee_id =
+the manager_id we just found.
+This is the subquery we talked about earlier, and it is still a relatively simple subquery.
+Let's see if you forgot it.
+Take a look.
+This query, the employee with this name, is first brought in as an IN,
+brought in as an IN, find this employee, his manager_id, and then see whose employee_id is this manager_id, then we found this last_name, right?
+Then this last_name, what to do? Is it INTO our emp_name?
+This block embodies the function of it as this OUT.
+It appears.
+It appears. Okay.
+After this is over, we will have an END here to express the end, and then a dollar sign.
+That's fine.
+Okay, at this time, we, note that select up to here, don't select above.
+After selecting, execute it.
+It works, right? Succeeded.
+Then after the success, the following is a call.
+Call.
+Then if you call, we will directly CALL our stored procedure.
+It's it.
+Then at this time, because we are involved in getting the value of this variable, so here I SET to define this variable.
+We will talk about the definition of variables specifically in the next chapter.
+Okay, then SET, we call it emp_name.
+We, colon equal, or equal is fine, let's still use this Abel to speak.
+After defining it, then we Ctrl+C this.
+Throw it in.
+First, when it embodies IN, it is here. This is called Abel.
+And then, after Abel finds the name of his manager, it embodies the function of OUT, and then writes it out to our variable.
+Then we only need to
+do a SELECT
+our variable, and that will be fine.
+Okay, you can run these two lines first.
+It's done. And then you execute it at this time, run it, it comes out.
+Abel, his manager is him.
+Manager is him. If you're not sure, then you can check it yourself here. Actually, it's not necessary, right?
+Here you can check it again, and change this position to Abel.
+Ctrl+C.
+Like this.
+Let's take a look.
+This is not needed.
+Select.
+Is it him? Okay, fine. That means we have no problem with this.
+And you can also directly select all of them to execute, which is also OK, also OK.
+Okay, then in this way, we have
+what? In the stored procedure, we have explained all five situations.
+
+> ⏱️ **续读下一分卷参数**: `start_time="00:30:00", duration_minutes=15.0`
+
+那只不过这里边呢我们还是没有涉及到就是既有 in 又有 out，又有 in out，或者有好多个 in、好几个 out 的情况。那也就是看你这个里边的 begin 跟 end 这里边这个，我们叫存储过程体，这个是什么意思了，就是你看你要干什么事了。那如果需要的话呢，这个参数呢是可以设置得比较多的。好，OK。行，那小结一下。咱们主要呢给大家提到的点呢就是我们如何呢去写这个存储过程，按照这个类型呢我们去写的。包括呢写完之后，我们还做了个事，就是该如何呢是不是去调用啊？对吧？如何去调用。对于这个 in 的这种情况，对于这个 out 的情况，那么我们需要呢去设置一个变量了。然后呢有 in out 的情况呢，我们得需要给个值。给值的呢是体现的是你 in 的特征，里边要用，是吧？然后呢，我们定义成一个变量呢是因为它还要写把数据写到这变量里边，我们再获取这个变量的值，体现是这个 out 的功能。哎，OK。然后就是我们说的这个事。好了，然后这块呢有一个小的问题。哎，小的问题，说如何调试的问题。这呢其实也是在体现，咱们不说呢存储过程有争议性吗？这也是它有争议性的一个点，就是不建议用，为什么呀？我们这块呢写的这个题目当中其实咱 begin 和 end 里边呢就写着两行代码，其实很简单。真要是我们去定义一个存储过程，有可能这里边呢达到大几十行，甚至说呢夸张点上百行都是可能的。那么如果你这个函数写，存储过程也好，或者存储函数也好啊，你写完以后，然后一运行挂了，是吧？保存的时候挂了，或者运行的时候挂了，那你说了这个时候我们要排错就很恶心了。就很恶心了，注意啊。大家如果你学习过这个 C 语言啊、Java 啊，或者 C++ 的话呢，那些编程语言它都有非常好的集成开发环境。这个写的过程当中报错了，它就直接给我们提示出来。你要是运行的时候报错呢，这个也能给我们报出一些错误信息，包括我们还可以呢去做这个 debug，对吧？非常的先进啊，人家有这个集成开发环境。但是呢，咱们这个 SQL 呢这方面做的就差一些。你这个结构呢写的如果特别长，然后运行的时候呢最后挂掉了，运行我们存储过程或者是后面我们讲的函数的时候挂了，那这个排错呀是很崩溃的。那怎么办呀？你这个 begin，那我这个写一下，你这个 begin 呢跟这个 end 里边呢可能写了这个上百行的这个 SQL，那你就是叫逐行推进了。啊，或者说你把这个呃这个存储过程或存储函数体呢取出来，哎这个查询一下，找了一个结果呢然后下面再去用一下，在在在下面去用，一点点的往后去推进，看看呢是不是哪块写错了。所以说这个方面来讲的话呢就体验就很差了。啊这个效率呢就很低，是吧？这呢就我们说的这个叫调试困难这个事。当然呢它也有一些第三方的调式工具啊，但是是收费的。我们要自己去调试呢就很崩溃。大家呢理解一下我们这里边的这个这个问题，啊知道这个情况。那关于我们说的这个存储过程啊咱们就讲到这。

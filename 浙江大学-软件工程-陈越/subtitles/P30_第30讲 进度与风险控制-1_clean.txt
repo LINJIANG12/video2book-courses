@@ -1,97 +1,26 @@
-以下是该片段的逐字转录内容：---那么这堂课呢，我们主要是讲 project scheduling 和 tracking。那么在过去的这些课里面呢，我们讲过 requirement analysis，讲过 design，讲过 testing，对吧？那么实际上一个项目的整个的历程呢，主要的历程是各个阶段，我们陈宇老师都已经讲过了。
-
-那么从软件研发项目角度来讲呢，项目计划的制定，还有 scheduling 和 tracking 也是非常重要的，非常重要的。那么今天呢，我们就看一下 project scheduling 和 tracking 到底有哪些需要注意的要点。那么我们经常能听到听说，哪个项目又要有各个 project delay，是吧？
-
-延后进度多长时间，需要做什么措施。那么为什么 project 会 delay？我们这里面列出了几个点，大家看一下会不会引起大家的共鸣。第一个就是我们在建立 project 的 schedule 的时候，我们会受到一些用户方，或者是软件开发项目以外的一些人的干扰，导致我们建立的并不是一个 realistic 的 deadline，是 unrealistic，对吧？
-
-这是一种，这是一种情况。比如说有客户，有一个用户方要求我六月底、七月底一定要上线。那么这种情况下呢，使得你在做软件进度的时候呢，会有很多的限制，这是一个。第二个呢，用户的需求经常发生了一些变化。那么变化呢，从正常操作角度来讲呢，变化应该体现在 project scheduling 的变化，但是往呢，比较难反映到里面去，除非一些大的变化。
-
-那第三块呢，就是对于工作任务或者工作量，估计的过低了。实际操作的过程中呢工作量很大，很大，那么导致我们安排的时间点完不成。还有就是一些没有预测到的一些其他的风险，包括一些技术，技术上的困难。那比如说我们在实现一个软件的过程中，那么一些关键技术，没有事先做好技术攻关，那也会导致 project delay，project delay。
-
-还有一些其他的人力安排等的一些困难。那么我们讲有这么多的原因会导致 project delay，或者是 project late。那么大家我想在做一些课堂的 project，或者大家真正参与到实验室的一些 project 的时候，应该也会深有感触。那么我们现在呢接下来呢，就是以各个小组为单位，你们讨论一下，那么你们遇到的一个典型的 project 到底是什么原因 delay 了？
-
-或者什么原因导致了没有按照进度执行？那么你们遇到了什么，遇到过什么原因？那么从现在角度来讲，你们又是怎么解决的，或者是当时你们是怎么解决的？那么大家用一张，就每个小组提交一张课堂讨论，然后每个人签一下名。好不好？给大家十分钟时间。*(学生分组讨论环节)*那么大家不用列很多很全面的原因，就说你们当时操作的一个项目最主要的 delay 的原因是什么，写一下就可以了。
-
-*(继续讨论环节)*大家的写完了？小组的每个人签一下名字。好的，大家写得差不多了。那一般是下课时候收是吧？还是现在交上来？现在交上来。好。那大家现在交一下。好，谢。好。好。好，那我们继续。我们看一下project scheduling，在做项目进度的时候，安排项目进度的时候，那我们主要的原则是什么？那么第一个呢就是 compartmentalization，就说定义一下我们有哪些task 的列表，task 列表。
-
-另外呢，就要识别出他们的 interdependency，就是指task 之间有依赖性，因为有一些任务是要先做，它做完了之后才有其他的任务才能做，对吧？那么你在安排进度的时候呢，如果你把它们安排到并行了，那么就有可能就出现问题了。另外呢就是 effort 的 validation，就说确认 resource 能用。
-
-另外呢resource 完成工作，这么多的 effort，effort？那么 resource 是可以指开发工程师，或者 QA 工程师，或者是其他的研发人员。另外呢，就是responsibility，就说具体哪个人做哪个 task。要在 scheduling 里面明确定义，明确定义。另外呢，就是每一个 task 需要有哪些的 output，或者是 deliverables，deliverable。
-
-比如说需求分析，那么需要有几种 analysis 的 model 要做出来。那么设计，那么你要有概要设计、有详细设计，是吧？甚至于说后面还有 interface，一些接口设计。这些都做好了之后呢，我们后面会讲到，通过一些方法，能够算出项目的大概的 schedule 情况。但是你如果是说要跟踪和控制项目，比较严谨的话呢，那么应该设定一些 milestone 或者是 checkpoint，checkpoint。
-
-比如说我需求分析做完了，或者是编码阶段做完了，那么就是一个比较大的里程碑。这是一个比较大的里程碑。那么如果里程碑与我们计划的时间点延后了，那么项目很有可能会 delay。所以要及时地采取一些措施。那么这里面有一个图呢，是 demo 了 effort 和 delivery time 之间的一个关系。那我们知道在研发的过程中，我们很多用户单位或者是我们的用customer 也好，或者是 user 也好，他们经常会说项目越快完成越好，是吧？
-
-经常会说这几句话。但实际上呢，就是因为 task 之间的 dependency和 resource 的 utility，那么我们一般的情况下呢，是采用一个折中的方案，并不是不惜代价地把项目提前完成。那么这，这跳线呢，就ermine，这跳线呢，是表示最快、最短的时间完成的话，那我们的 effort 大家看，也是很高的，是吧？
-
-而且是惊人的高，惊人的高。在那么再往前的话是 impossible 了。就说如果是以提前 25% 的时间完成的话，那已经是很大、很高的 cost。另外呢，如果是把 cost 降到最低，那么很多的 task 无法去并行进行下去。那时候呢，它的时间也是很长的，很长的。那么有一些项目它的实效性是很敏感的是吧？
-
-尤其是我们在讲到 Web APP 的时候，那么它的实效性要求的都是比较短期的开发，比如说三个月还是六个月。那时候呢，项目也是不切合实际的，不切合实际的。那么一般情况下呢，我们是选取一个折中的方案， balance我们的 effort cost 和 delivery time，delivery time。
-
-所以这是一个指引性的方向。那么我们在评估每一个activity 的 effort 的时候，我们大概是有一些原则，或者是有一些 guide。那么大家看一下 effort 的 asallocation。那我们在学软件工程之前的话呢，我们同学往比较注重编码，对吧？一做一说到软件研发项目，那么大家可能第一反应是编程序、做系统，做系统。
-
-那么编码阶段呢，实际上在整个的 project  scheduling 里面，以下为整理后的专业逐字转录内容，已规范英文术语与计算机专业词汇，并按语义逻辑进行了自然分段：---### 项目阶段与工作量分布 (00:19:49 - 00:21:13)我们占比是比较小的，比较小的。那么 40% 到 50% 做什么呢？
-
-做 front end 的一些 activity，包括 customer 的 communication 、analysis ，或者 design review ，与 customer 进行 confirm，confirm。那么接下来真正的构建阶段， coding 阶段呢，实际上只有 15% 到 20%，15% 到 20%。
-
-那后面的再大部分呢，30% 到 40% 的 effort 呢是花在 testing 、installation 这些方面。我想大家经历过几次课堂上的大的 project，应该也能体会到 testing 和 installation 这段时间各个小组应该是花比较大的代价，尤其是在 integration，integration。
-
-那么大家现在进行了第一次展示是吧？第一次展示。那么我相信大家在能展示之前，这段阶段在做 integration 的时候那是非常的 struggling，对吧？各个小组之间要进行很多的集成，接口事先的定义，有很多的问题会在集成阶段暴露出来。### 任务集定义与 WBS (00:21:14 - 00:23:20)那么定义 task set，主要微调你的 project 的 type，严格的这种程度，还有就是去确定到底有哪些 task 要在项目里完成，哪些 task。
-
-比如说编码阶段，那你要求的如果是质量非常高的话，那应该是做一个人编码，另外还有一些 peer review，是吧？开 review meeting、评审会，有的做一些单元测试，这些 collaboration 的 class 之间的一些测试。那么 task set 的定义要求还是比较详细的。大家在 project 的执行过程中，需要的所有的 activity，真正要做的 activity，那么列得越全越好。
-
-如果大家漏掉的 activity 比较多的话，那么就容易引起大家的 delay 了，引起 project late。那具体列……这是一个 sample，一般是大的方面，都要做哪些大的方面的工作，大的方面里面又分几个要点，要点之后下面又分小点，比如说 review 、derive a list 等，是给大家的一个 sample。
-
-那么一个项目以这种 breakdown 的形式列出来，叫 Work Breakdown Structure（WBS）。那么一个项目你把整个 structure 都列出来的话，基本上你 task set 就算 identify 出来了。### 任务依赖性与网络图 (00:23:21 - 00:24:30)那么刚才我们提到了，task 会有一些 dependency。
-
-我们一定要先做了什么 task 再进入下一个 task。那么如果不把这种 dependency 识别出来，你就不知道项目的并行性有多高，项目在研发阶段的并行性有多高。那么这是一个例子，就是把各个 task 之间的完成的先后顺序和依赖关系定义出来了。也就是这里面按照 task network，比如说 1.3a、3b、3c 三个 task 做完的话呢，才能进入 1.4。
-
-那么如果这种 dependency 识别出来之后呢，大家在安排 resource 做真正的 task 的时候呢，就会注意到这种 dependency，就会安排 task 做的先后顺序，先后顺序。### 甘特图与工期规划 (00:24:31 - 00:27:17)那这是一个 timeline 的 chart。
-
-比如说 task 1，那么是从什么时间到什么时间，是吧？谁来做。task 2 从什么时间到什么时间。那这里面都用这种甘特图的方式表达出来。那么我们看，如果对于一些有依赖关系的 task，那么是如何做的呢？比如说这里面我们举个例子，比如说 task 6 是依赖于 task 1 的，也 task 1 做完才能做 task 6。
-
-那么我们就需要比如说在 timeline chart 上要把这种含义表达出来，是吧？task 6 起始的时间一定是在 task 1 完成的时间之后才能开始，开始。那我们这样把整个项目的 timeline 画出来的时候呢，我们最后一个任务的完成时间，我们看，就是整个项目的最后完成的时间了，对吧？所以用这种 timeline chart 画完之后呢，我们大概清楚项目的 duration，就大概历时是多长时间。
-
-那么是用一个做 project schedule 的一些 tool 画出来的 sample。那么鼓励用一些 automated 的一些 tool。我比如说微软的 Project，微软的 Project  tool，tool 名字就叫 Project 2000，现在可能有新的版本。那么用这种 Project tool 画出来的话呢，就是把任务都列出来，然后时间填上，填上时间，然后设好 milestone 和 checkpoint，然后设好项目之间的依赖性，它会自动地帮你规划项目的整个的历时，整个项目的历时。
-
-那么这张表的话呢，就是现在呈现给大家这张表呢，也确实是在工业界，就是软件研发、软件产业里面，项目计划里面是必备的一张表，必备的一张表。### 项目追踪与里程碑评估 (00:27:18 - 00:29:44)那么 schedule 做完的话呢，我们需要追踪。看真实的项目，真实的项目 status 我们事先做的、按照我们事先做的计划来的。
-
-那么我们管过程叫 tracking，tracking。主要是 conduct periodic project status meeting in which team member reports the progress of problem。就是每个小组或者每个研发个人，那么他目前的一个进展状态是怎么样呢，与我们实际的 project 有偏差。
-
-那主要是通过比如说 review，review 的一个结论，是吧？比如说我们编码阶段，有编码阶段的一个评审，那么评审的结论是什么？然后有一些 formal 的 project milestone，就是有一些里程碑了。那么编码阶段结束了？还是测试阶段结束了？还是部署阶段、集成阶段结束了？等等的一些里程碑。
-
-那么里程碑呢，一般都会设出明确的时间点。比如说我们 project，我们 demo 1 完成，时间点我们设的一个里程碑是什么？就是比如说是 6 月 19 号。那么今天晚上，或者是下午助教会 review 大家的第一个 demo，那么就会确定说我们第一个里程碑真正的 closed 掉了。，就是如果有偏差的话，那么就比较一下 actual start date 和 planned start date 有一些差别，有一些差别。
-
-还有呢就是用一些分析模型了，比如说 EVA 模型，去评估现在的 progress，progress。那么面向对象的……现在一般的软件研发，主要是用面向对象的分析与设计方法，面向对象分析与设计方法。那么对于……面向对象的 OO 这种 project，那么我们大概的里程碑有哪些呢？那第一个就是，这是指 technical 的里程碑。
-
-第一个呢就是，比如说分析完成。就这些分析模型都做出来了，他们之间的关系，一些重用的类都已经被识别出来了，那么我们分析阶段结束。算是一个里程碑。第二个呢就是设计阶段。就是比如说你设计了多少个类，类与类之间怎么协作呀，它们的属性，它们的 operation ，这些都设计完成。那么是整个 design 的 milestone，design 的 milestone。
-
-那第三个的话呢，就是编码完成，编码完成。第四个呢，就是测试，测试完成。那测试包括类、类的之间的协作，还有， class level 本身的，针对于类的测试和类与类之间的协作的一些测试。模块内部的一些集成测试，还有一些功能或者系统级别的测试。那么这些都完成了之后呢，我们就叫做 OO testing， milestone 就给它 close 掉，就给它 close 掉。
-
-所以大家回顾一下你们现在经历的课堂的 project，如果采用 OO 方法的话，其实也离不开这么几个大的 milestone，是吧？需求分析做完，设计做完，编码做完，测试、集成做完。那我们接下来介绍一下，我们在做 project scheduling，评估 project progress 的时候，我们大概有哪些方法。
-
-那么比较著名的就是 EVA 这种方法，主要是来衡量项目前的进，一个进度，一个进度。就是 enable us to assess percent，percent of the completeness。就是我们到底完成了百分比是多少？如果我们就仅是通过我们个人的感觉去说，项目大概完成一半了，或者完成 80% 了，都不是，不是很精确的，不是很精确的。
-
-那我们要知道现在时间点到底项目已经完成了百分之多少了，那需要借用一些量化的模型。那么 EVA 可以提供更加准确或者 reliable 的 readings of the performance from as early as 15% into the project。那我们看如何计算 earned value。
-
-那么这里面有几个 terminology。第一个呢就是 BCWS，它叫 budget cost of the work scheduled。也在大家的项目计划或者项目进度里面，我们不是定义每一个 task 吗？对吧？在项目计划里面定义每一个 task。那么每一个 task 是有工作量的，对吧？是有一个 effort，或者管它叫 cost 也可以。
-
-比如说几个人天，几个人天。那么我们在工作计划里面，我们定义的这种 cost，我们叫做 BCWS，BCWS。那所有项目的 task 的， budget cost 加一起，我们叫做 BAC。这就是一个总和了，整个项目的 scheduled work 的， budget 的 cost，对吧？所有定义在我们 schedule 里面的工作的预算。
-
-那么这两个指标呢，是供后面计算一些相应的，相应的分析指数做准备的。那么第二，第二个 terminology 呢，叫 BCWP，BCWP。是指 budgeted cost of the work performed。我们看跟刚才有什么区别？是 budgeted cost of the work scheduled，是吧？
-
-就是是我们在计划里面做的工作的 budgeted cost。那呢，是说已经完成的工作的 budgeted cost 是多少，对吧？那如果我以完成的除以原来计划的总数，那应该就是目前的 project 的 progress，progress。那后面的还有一些其他的， index。比如说 schedule performance index，那是用 BCWP 除以 BCWS，BCWS。
-
-是指整个 scheduled 的整个的 performance 现在指标是多少。另外呢就是偏差，BCWP 减去 BCWS，对吧？就是我们现在 perform 的 budget cost 和相减，那么就是它的 variance。那么 SPI 呢是一个 indication of efficiency which the project is utilizing scheduled resources。
-
-我们在利用 resource 的一个，一个效率是怎么样呢？是怎么样呢？那么我们完成的百分比，刚才我也提到了，就是 BCWS 除以 BAC，BCWS 除以 BAC。是指我们 scheduled 的 percent，是指 percent scheduled for completion。就是按照我们 schedule 的话，是百分，百分比了。
-
-那么实际的百分比呢，是 BCWP 除以 BAC。完成的这部分， performed 对吧？是 scheduled，scheduled 的。那么实际 actual cost of the work performed，那么 ACWP 呢，如果我们把它作为实际的 cost，因为每一个 task 有 scheduled，有 budgeted cost，还有你实际 perform 下来之后，它实际的 cost 是多少，对吧？
-
-那么实际的 cost， scheduled，budget cost 和除以实际的 cost，那么就是它的 cost performance 的 index。就说你在 cost control 这块，你的效率是怎么样，是怎样的。如果比如说我们，我们定义的 task 是 5 个人天，那么实际你在 perform 的时候是 6 个人天，那么实际上你的 cost performance index 那么怎么样子？
-
-就是大于 1 的，小于 1 的，小于 1 的，对吧？那就是，就是可以用来比较 cost 的 control 这方面的效率。另外呢 cost variance 就是，是指就是偏差了，偏差了。我们到底 cost 增加多少或者减少多少，那么需要有一个数字。那么就是 BCWP，BCWP 是 performed 的 budget cost 减去 actual cost of the work performed，performed。
-
-应该都是比较直观的一些指标。大家课后的时候再看一下，可能一下子讲了这么多的 terminology，需要一点时间消化。那么 project schedule 呢是项目管理里面，项目管理里面比较重要的。另外一个比较重要的方面呢，就是 risk management。就是一个好的项目经理，一个合格的项目经理，一定是一个，非常合格的风险评测或者风险预测人员。
-
-否则的话，会经常使自己控制的项目暴露在风险里面，暴露在风险里面。那么这节课
+那么这堂课呢，我们 主要是讲这个project scheduling和tracking。 那么在过去的這個这些课里面呢，我们讲过 requirement analysis， 讲过design， 讲过testing，对吧？ 那么实际上一个项目的整个的历程呢，主要的历程是各个阶段， 呃我们陈悦老师都已经讲过了。 那么从软件研发这个项目角度来讲呢， 呃项目计划的這個制定， 还有scheduling和tracking， 也是非常重要的，非常重要的。 呃那么今天呢我们就 呃看一下这个project scheduling和tracking 到底有哪些这个需要注意的這個要点。 那么我们经常能听到这个 听说啊哪哪个项目又要有各project delay，是吧？ 呃延误这个进度多长多长时间，需要做什么什么措施。 那么为什么project会delay啊？
+那我们这个 这里面列出了几个点啊，大家看一下会不会引起大家的這個共鸣。 第一个就是我们在建立 呃 project的schedule的时候， 我们会受到一些这个用户方， 或者是 这个软件开发项目以外的一些人的这个 这个干扰。 导致我们建立的并不是一个 呃realistic的的deadline，是unrealistic，对吧？ 这是一种这是一种情况。 比如说有客户， 有一个用户方 要求我这个6月底7月底一定要 这个呃上线。 那么这种情况下呢，使得你在做软件这个 呃进度的时候呢， 呃 会有很多的这个限制。这是一个。 第二个呢，就是说用户的需求 经常发生了一些变化。 那么这个变化呢 呃 从正常操作角度来讲呢，这个变化应该体现在这个project scheduling的变化。 但是往往呢 呃 比较难反应到里面去，除非一些大的变化。
+那第三块呢，就是 对于工作工作任务啊或者工作量啊， 呃估低得估计得过低了。 实际操作的过程中呢工作量很大， 很大。 那么导致 我们安排的这个时间点完成不了。 还有就是一些没呃没有预测到的一些呃其他的风险啊， 包括一些技术 技术上的这个困难。 那比如说我们在实现一个这个呃 软件的过程中，那么一些关键技术啊 呃 这个 没有事先做好这个技术攻关， 那也会导致这个project delay，project delay。 还有些其他的人力安排啊等等的一些困难。 那么 我们讲这个 有这么多的原因 会导致project delay或者是project late， 那么大家我想在这个 呃 做一些呃 课堂的project，或者大家真正参与到这个 呃实验室的一些project的时候， 应该也会呃 深有感触。
+那么我们现在呢接下来呢就是以各个小组 呃为单位啊，你们讨论一下 那么你们遇到的一个典型的project 到底是什么原因 呃delay了，或者什么原因导致了这个没有按照进度执行。 那么你们遇到了什么，遇到过什么原因。 那么从现在的这个角度来讲，你们又是怎么解决的，或者是当时你们是怎么解决的。 那么大家用这一张，就每个小组提交一张这个 课堂讨论，然后每个人签一下名。 好不好？给大家呃十分钟时间。 那么大家不用列很多很全面的那个原因啊，就说你们当时操作一个项目，最主要的delay的原因是什么。 写一下就可以了。 好的，大家写得差不多了吧？ 那么 这个一般是下课的时候收是吧？ 还是现在交上来？ 现在交上来，好，那大家现在交一下。 谢谢。 好。 好。 好，那我们继续啊。我们看一下这个project scheduling在做这个项目进度的时候，安排项目进度的时候，那我们主要的原则是什么。
+那么第一个呢就是compartmentalization，就说定义一下我们有哪些 这个task的这个列表， task列表。 另外呢，要识别出他们的这个interdependency。 就是指 task之间有依赖性，因为 有一些任务是要先做，他做完了之后才有其他的任务才能做，对吧？ 那么你在安排这个进度的时候呢， 如果你把它们安排到并行了，那么这个就有可能就出现问题了。 另外呢就是effort的validation。就是是不是 呃确认这个resource是不是能用？ 另外呢就是说 呃这个resource完成这个工作，是不是这么多的effort，effort。 那么这个resource是 可以指这个开发工程师啊，或者QA工程师啊，或者是其他的这个 呃研发人员啊。 另外呢就是 呃responsibility，就是说 具体哪个人 做哪个task。
+这个要在scheduling里面明确定义，明确定义。 另外呢就是每一个task需要有哪些的output，或者是deliverable，deliverable。 比如说 呃需求分析， 那么需要有几种analysis的model要作出来。 那么设设计，那么你要有 概要设计，有详细设计，是吧？ 甚至于说后面还有这个interface一些接口设置。 这些都做好了之后呢， 我们后面会讲到就是说 通过一些这个方法，能够算出这个项目的 大概的schedule情况。 但是你如果是说要 呃跟踪和控制这个 呃 项目 比较这个严谨的话呢，那么应该设定一些这个milestone，或者是checkpoint，checkpoint。 比如说我需求分析做完了，或者是编码阶段做完了，那么这个就是一个比较大的里程碑。 这是一个比较大的里程碑。
+那么如果这个里程碑 与我们计划的 时间点 延后了， 那么这个项目 很有可能会delay。 所以要及时的采取一些措施。 那么这里面有一个图呢， 呃 是这个demo了这个effort和delivery time之间的一个关系。 那我们知道这个 在研发的过程中啊， 我们很多这个用户单位，或者是我们的这个用呃这个 customer也好，或者是user也好， 他们经常会说这个项目越快完成越好， 是吧？经常会说这句话。 但实际上呢， 就是因为task之间的dependency 和resource的这个utili-呃utility， 那么我们一般的情况下呢 呃是采用一个折中的方案， 并不是不惜代价地 把这个项目提前完成。 那么这条 这条线呢就呃time min这个这个这个 这条线呢，是表示这个 呃最快最短的时间完成的话，那我们的effort大家看啊，也是很高的，是吧？ 而且是惊人的高， 惊人的高。
+在 那么再往前的话是impossible了。就说如果是以这个提前25%的这个 呃时间完成的话，那已经是很 很高这个呃cost。 另外呢，如果是把cost降到最低， 那么很多task无法进-并行进行下去。 那这个时候呢， 呃 它的时间啊也是很长的，很长的。 那么有一些项目它的时效性是很敏感的是吧？尤其是我们在讲到这个Web app的时候。 那么它的这个时效性 呃要求的都是比较短期的这个 呃开发，比如说三个月还是六个月。 那这个时候呢， 呃 这个项目也是不切实际的，不切实际的。 那么一般情况下呢，我们是选取一个折中的这个 方案，就说balance 我们的effort cost和delivery time，delivery time。 所以这是一个这个指引性的这个 方向啊。
+那么我们在评估 每一个 这个activity的effort的时候， 我们大概是有一些这个 呃 这个原则，或者是有一些guide。 那么大家看一下这个effort as-allocation。 那我们在学软件工程之前的话呢，我们同学往往比较注重编码，对吧？ 一做一说到这个软件研发项目， 那么大家可能 第一反应是编程序、做系统，做系统。 呃那么编码阶段呢实际上在整个的这个project的这个schedule里面， 我们这个 占比是比较小的，比较小的。 那么40%到50%做什么呢？做 呃 front-end的一些activity，包括customer的communication啊、 analysis啊， 或者design review啊， 这是跟与与这个customer进行confirm，confirm。
+那么接下来真正的构建阶段，就是说 呃 coding 这个阶段呢，实际上只有15%到20%， 15% 那后面的大再大一部分呢 30%到40%的effort呢是花在testing啊、 installation啊这些方面。 我想大家这个经历过几次这个课堂上的这个大的project， 应该也能体会到这个testing和installation啊， 这段时间各个小组应该是花比较大的代价的。 尤其是在 呃integration， integration。 那么大家呃现在进行了第一次展示，是吧？第一次展示。 那么我相信就是大家在能展示之前， 这段阶段在做integration的时候，那是非常的struggling的，对吧？ 各个小组之间要 进行很多的这个集成， 接口事先的定义， 有很多的這個问题啊会在集成阶段暴露出来。
+那么定义task set，那么主要是要 敲定你的这个project的這個type， 然后呢， 呃严格的这种程度，还有就是 呃 去确定到底有哪些 task要在这个项目里完成， 哪些task。 比如说编码阶段， 那么你你要求的如果是质量非常高的话，那应该是做 呃一个人编码，另外还有些peer review，是吧？开review meeting，评审会。 然后呢， 呃 有的做一些这个单元测试， 做一些collaboration的这个class之间的一些测试。 那么task set的這個 定义啊要求还是比较详细的。就说大家 在project的执行过程中 需要的這個 所有的activity， 真正要做的activity，那么列得越全越好。 如果大家就是说漏掉的这个activity比较多的话，那么就容易引起大家的delay了，引起project late。
+那具体列这个 这是一个一个一个sample啊，就说一般是大的方面 都要做哪些大的方面的工作，大的方面里面又分几个要点。 完要点之后下面又分小点，比如说review啊， derive a list啊，那这个这个是 给大家的一个这个sample。 那么一个项目 呃以这种这个breakdown的形式列出来， 这个叫这个work breakdown 呃structure，structure。那么一个项目的你把整个的structure都列出来的话， 呃基本上你这个呃 task set就算identify出来了。 那么刚才我们提到了task 那么 会有一些dependency。 就说我们一定要先做了什么task，再进入 下一个task。 那么如果不把这种dependency识别出来，你就不知道这个项目的并行性有多高。 项目在研发阶段的并行性有多高。
+那么这是一个例子啊，就是把各个 task之间的 呃 呃完成的这个先后顺序和依赖关系 把它定出定义出来了。也就是说这里面 这个 按照这个task network，比如说1.3a、3b、 3c 这个三个task做完的话呢，才能进入1.4，1.4。 那么 如果这种dependency识别出来之后呢，大家在安排resource 做 这个 呃真正的task的时候呢， 就会注意到这种dependency， 就会 就会安排这个task做的先后顺序， 先后顺序。 那这是一个timeline的这个chart。 呃 比如说这个task 1，那么是从什么时间到什么时间，是吧？ 谁来做？ task 2，从什么时间到什么时间。那这里面都 呃用这种这个 呃甘特图的方式表达表达出来啊。 那么我们看，如果对于一些有依赖关系的 task， 那么是如何 如何做的呢？
+就是说比如说 这里面我们举个例子啊，比如说task 6 是依赖于这个 task 1的。 也就是说task 1做完才能做task 6， 那么我们 就需要 比如说在这个timeline chart上要要把这种 这种这个含义啊表达出来，是吧？task 6 起始的时间一定是在task 1完成的时间之后才能开始， 开始。 那我们这样 我们这样把这个整个项目的timeline画出来的时候呢， 我们最后一个任务的完成时间， 我们看， 就是整个项目的 这个 最后完成的时间了，对吧？ 所以这个用这种呃timeline chart画完之后呢，我们大概清楚 这个项目的duration 就大概历时是多长时间。 那么这个是用一个 呃 用做这个project schedule的一些tool画出来的这个sample。 那么 鼓励用这个一些这个 呃automated的一些tool啊。
+呃我比如说呃微软的这个Project， 微软的Project。 这个这个tool，tool名字就叫Project 2000，现在是又可能有新的版本啊。 那么 用这种project呃tool画出来的话呢，就是把这个任务都列出来，然后时间填上，填上时间， 然后设好这个milestone和checkpoint， 然后设好这个项目之间的依赖性。 它会自动的帮你 呃规划 呃这个项目的整个的历时， 整个项目的历时。 那么这张表的话呢，就是现在呈现给大家这张表呢， 也确实是在这个 呃工业界，就是软件研发软件产业里面啊， 呃 项目计划里面是必备的一张表， 必备的一张表。 那么schedule做完的话呢，我们 需要这个追踪。 就说看真实的项目啊， 真实的项目status是不是我们事先做的这个 按照我们事先做的这个计划来的，那么我们这个管这个过程叫tracking，tracking。
+主要是conduct 呃periodic a project status meeting in which team member reports progress or problem。 就说 每个小组或者每个 呃研发个人， 那么他目前的一个进展状态是怎么样呢？那与我们实际的这个 project是不是有有有 有偏差？ 那主要是通过比如说review， review的一个结论，是吧？ 比如说我们这个编码阶段，有编码阶段的一个评审， 那么这个评审的结论是什么。 然后有一些formal的project milestone，就是有一些里程碑了。 那么编码阶段结束了， 还是测试阶段结束了， 还是这个部署阶段、集成阶段结束了， 等等等等的一些里程碑。那么这个里程碑呢一般都会设出明确的时间点。 比如说我们这个project， 我们demo 1 完成 这个时间点，我们设的一个里程碑是什么？
+就是比如说6月29号。 那么 今天晚上，那么或者是下午助教会review大家的這個 第一个这个demo， 那么就会确定说我们第一个里程碑是不是真正的close掉了。 然后呢就是如果有偏差的话，那么就比较一下actual start date 和这个planned start date是不是这个呃 有一些这个差别，有些差别。 还有呢就是用一些这个分析模型了， 比如说这个EVA模型啊 去评估现在的这个progress，progress。 那么面向对象的这个，现在一般的这个 呃软件研发主要是有用这个面向对象的分析与设计方法，面向对象分析设计方法。 那么对于面向对象的OO这种project， 那么我们大概的里程碑有哪些呢？ 第一个就是 这是指technical的里程碑啊。
+第一个呢就是比如说分析完成，就是这些分析模型啊都做出来了，它们之间的关系啊， 呃一些这个 重用的这个类啊都已经这个识别出来了，那么我们分析阶段结束， 这个算是一个里程碑。 第二个呢就是设计阶段，就是比如说你设计了 呃多少个类啊，类与类之间怎么协作呀， 他们的属性啊，他们的这个operation啊，这些都设计完成。 那么这个是 整个design的milestone，design的milestone。 那第三个的话呢， 就是编码完成，编码完成。 第四个呢就是这个测试， 测试完成。那这个测试包括 这个类类的这个之间的协作啊，还有这个 呃 这个class-level这个本身的这个 针对于这个类的测试和类类之间的这个协作的这个一些这个测试啊， 模块内部的一些集成测试。 还有一些这个功能啊或者系统级别的这个测试。
+那么这些都完成了之后呢，我们叫做OO testing 这个milestone算close掉了， 算close掉了。 所以大家回顾一下你们现在立呃经历了这个课堂的这个project， 如果采用这个OO方法的话， 其实也呃离不开这么几个大的milestone，是吧？ 需求分析做完， 设计做完，编码做完，测试集成做完。 那我们先接下来这个介绍一下这个 我们在做这个project scheduling 呃评估这个project progress的时候，我们大概有哪些方法。 那么比较著名的就是EVA这种方法啊， 主要是这个来衡量项目目前的这个 呃 进一个进度，一个进度。 就是enable us to assess percent pers-percent of completion。 就是我们到底完成了百分比是多少。
+如果我们仅仅是通过我们个人的感觉去说，噢，这项目大概完成一半了， 或者完成80%了，这个都不是 不是很精确的，不是很精确的。 那我们要知道现在这个时间点到底到底这个项目已经 完成了百分之多少了，那需要借用一些量化的模型。 那么EVA 可以提供更加准确或者reliable的这个readings of performance from as early as 15% into the project。 那我们看这个 呃如何这个计算这个 呃 earn value啊。 那么这里面有几个这个呃terminology， 第一个呢就是BCWS，它叫这个budgeted cost of the work scheduled。 也就是说在大家的 项目计划或者项目进度里面， 我们不是定义每一个task吗，对吧？在项目计划里面定义每一个task。 那么每一个task是有工作量的， 对吧？
+是有一个 呃effort，或者管它叫cost也可以。 比如说几个人天， 几个人天。 那么我们在那个 呃这个work scheduled这个里面呢我们会 呃定义的这种cost我们叫做 BCWS，BCWS。 那所有项目的这个task 的这个这个budgeted cost加一起， 我们叫做BAC。 就是一个总和了， 整个项目的 呃scheduled work的的这个这个budgeted cost，对吧？ 所有定义在这个我们schedule 里面的这个工作的这个呃预算。 那么这两个指标呢， 是供后面计算这个一些相应的这个 呃 相应的这个分析 指数做准备的。 那么第二呃第二个这个terminology呢叫BCWP， BCWP。 呃是指这个budgeted cost of the work performed。我们看跟刚才那个什么区别啊？
+这个是budgeted cost of the work scheduled， 是吧？ 就是这个是我们在计划里面做的这个工作的这个budgeted cost。 那这个呢，是说已经完成的工作的budgeted cost是多少？ 对吧？ 那如果 我已经完成的除以 呃原来计划的这个总数，那这个应该就是目前的這個project的這個 呃 progress，progress。 那后面的还有一些 呃 其他的这个 呃这个这个index啊，比如说schedule perform-performance index 那是用BCWP除以BCWS， BCWS。 是指这个整个scheduled的这个 整个的performance现在指标是多少。 另外呢就是偏差， BCWP减去BCWS，对吧？ 就是我们现在performed这个budgeted cost和这个相减，那么就是它的这个variance。
+那么SPI呢是一个indication of efficiency with the project is utilizing scheduled resource，就说我们在利用这个resource的一个一个效率是怎么样呢。 那么我们完成的百分比， 这个刚才我也提到了，就是BC WS除以 呃 呃 BAC， BCWS除以BAC。 这个是指这个我们scheduled的 percent，是指percent scheduled for completion，就按照我们schedule的话 是呃百分 百分比了。 那么实际的百分比呢是BC WP除以BAC。 完完成的这部分，这个performed，对吧？这个是scheduled， scheduled。
+那么实actual cost of the work performed，那么这个ACW-ACWP呢 呃如果我们把它作为这个实际的cost，因为 每一个task 有scheduled有这个budgeted cost，还有就是说你实际perform下来之后，它实际的cost是多少， 对吧？ 那么实际的cost 呃 呃这个sche-budgeted cost和除以实际的cost，那么就是它的cost performance的index。就是你在 cost control这块你的效率是怎么样， 是怎么样。 如果比如说我们 我们定义的task 是五个人天，那么实际你在perform的时候是六个人天， 那么实际上你这个cost performance index那我们怎么样？就是大于一的。 啊小于一的，小于一的， 对吧？ 那这个就是 就是可以用来比较cost的呃control这方面的这个效率。
+另外呢这个 呃cost variance就是 是指就是偏差了，偏差了。 我们到底这个cost增加多少，或者减少多少， 那么需要这个有一个数字。 那么就是 呃BCWP， BCWP 是performed 这个budgeted cost减去 actual cost of the work performed， performed。 这个应该都是比较直观的一些指标啊。 呃 大家这个课后的时候再看一下。可能一下子这个讲了这么多这个terminology， 呃 需要一点时间消化。 那么project schedule呢是这个 项目管理里面项目管理里面比较重要的。另外一个比较重要的方面呢， 就是risk management。 就说一个 好的项目经理，一个合格的项目经理， 一定是一个这个呃非常合格的这个 风险评测 或者风险预测人员。
+否则的话， 会经常使自己控制了这个项目啊暴露在风险里面，暴露在风险里面。 那么这节课

@@ -1,0 +1,18 @@
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
+### 课程内容高保真转录
+
+**[00:00]** 
+不会玩中断，根本谈不上你水平怎么样。
+
+**[00:13]** 
+但是结合中断的应用，我们考试的话又不好考，一考是不是觉得就难？如果我满试卷上出这样的题，我估计大部分人都糊了。
+
+**[00:31]** 
+课堂上只是帮你引进门，但是工程中大量地在用，所以还要求大家去加强。这是第一块。
+
+> ⏱️ **分页状态**: 全篇音频已处理完毕。
