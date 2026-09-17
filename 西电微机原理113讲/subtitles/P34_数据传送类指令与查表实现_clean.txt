@@ -93,6 +93,7 @@ LEA BX, DATA1
 
 所以，这条指令又要和 `MOV`……
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ### 8086 汇编语言：标志传送、数据交换与字节转换指令
 
@@ -240,5 +241,6 @@ LEA BX, TABLE    ; 将转换表的偏移首地址装入 BX 基址寄存器
 XLAT             ; 执行查表：AL ← DS:[BX + AL]，此时 AL 转换为字符 '4' 的 ASCII 码 (34H)
 ```
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 > ⏱️ **分页状态**: 全篇音频已处理完毕。

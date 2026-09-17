@@ -114,6 +114,7 @@ $2000$ 个字符所占空间约等于 $2\text{ KB}$（标准 $2\text{ KB} = 2048
 
 程序可以通过参数设置当前活动的显示页（如将 `BL` 设置为 `0` 代表选择第 0 页）。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 # 8086 汇编语言：字符串操作指令及其共同特点
 
@@ -186,5 +187,6 @@ $2000$ 个字符所占空间约等于 $2\text{ KB}$（标准 $2\text{ KB} = 2048
 #### [09:27] 特点三：可添加重复前缀
 在串操作指令的前方（左侧），可以添加**重复前缀**（重复操作符，如 `REP` 等），用于实现重复执行串操作。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 > ⏱️ **分页状态**: 全篇音频已处理完毕。

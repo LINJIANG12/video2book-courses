@@ -18,6 +18,7 @@ audio/
 # ---- 任务书与调度中间件 ----
 *_TASK.md
 .dispatch_log.jsonl
+*.suspect.json
 
 # ---- 账本与语义规划 ----
 manifest.json

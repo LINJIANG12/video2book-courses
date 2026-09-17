@@ -367,7 +367,9 @@ INT……
 那假如，我要搬家的源数据块和目的数据块都在数据段、DS段。我有个假如嘛。那现在是不是牵涉到偏移地址的问题？那你源块在哪呢？我说，源块……当然的，变量名我要叫 DATA1，是不是个形参？目的块所指的变量名叫 DATA2，形参2。搬家的字节或者字的总数，我要是 COUNT，是不是三个形参？  
 那我照样编程序了，编成了：LEA SI，假如段地址已经初始化了，DATA1；LEA DI，DATA2……
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ===== PART2 (00:15-00:20 首轮) =====
 以下为这段课程录音的逐字转写文本，已完整保留口语停顿、重复及语气原貌：
@@ -439,6 +441,7 @@ INT……
 2. **03:40** 处的 `CRLF`（Carriage Return & Line Feed，即回车换行，ASCII码分别为 `0DH` 和 `0AH`）。
 3. **04:20** 处的汇编指令标准化为 `MOV AH, 2`、`MOV DL, 0DH`、`INT 21H` 等标准汇编指令书写形式。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 根据微机原理与汇编语言（8086/MASM 宏汇编）的课程上下文及专业术语，这段录音是老师在讲解**“数据块移动宏指令（BYTE_MOVE / BMOV）的定义、LOCAL 伪指令以及宏调用与宏展开”**。
 
@@ -602,6 +605,7 @@ INT……
 8. **02:52 等 “贝特 move / 贝特1 / 贝特2” $\rightarrow$ “BYTE_MOVE / BYTE1 / BYTE2”**：宏名称及形参名（字节移动宏，形参为源缓冲区 BYTE1、目的缓冲区 BYTE2、字节数 N）。
 9. **04:46 “是不是有加号？”**：汇编器（如 MASM）在生成列表文件（.LST）进行宏展开时，展开出的源语句行首会自动带有 `+` 标记，老师在黑板上书写时特别向学生强调该特征。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 > ⏱️ **分页状态**: 全篇音频已处理完毕。
 

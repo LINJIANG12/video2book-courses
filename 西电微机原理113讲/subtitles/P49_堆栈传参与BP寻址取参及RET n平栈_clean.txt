@@ -1,3 +1,5 @@
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
 ### 子程序调用与堆栈参数传递
 
 #### [00:00] 主程序压栈传参与 CALL 指令执行

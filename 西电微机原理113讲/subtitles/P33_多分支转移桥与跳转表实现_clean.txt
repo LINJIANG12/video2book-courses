@@ -1,3 +1,5 @@
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
 # 汇编语言：程序转移与“转移桥”（跳转表）的设计实现
 
 ---
@@ -138,5 +140,6 @@ JMP BX          ; 段内间接转移，跳到转移桥对应的分支指令
 
 看懂了没有？这就相当于用 `JMP` 指令在这里做了一个**转移桥**（跳转表）。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 > ⏱️ **分页状态**: 全篇音频已处理完毕。

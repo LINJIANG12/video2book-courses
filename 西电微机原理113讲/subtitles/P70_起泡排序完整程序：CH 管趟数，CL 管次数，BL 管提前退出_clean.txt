@@ -424,6 +424,7 @@ EXIT:
 4. **程序系统调用返回未说明**：
    * 视频未呈现排序结束后如何交还控制权给 DOS/操作系统（如调用 `MOV AX, 4C00H / INT 21H` 未在片段中出现）。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ===== 全讲总结整片(00:00-00:29:00，含结尾) =====
 # 《8086汇编语言程序设计》精读技术教材与复习手册

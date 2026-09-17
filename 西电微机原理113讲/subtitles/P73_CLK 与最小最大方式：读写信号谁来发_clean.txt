@@ -171,6 +171,7 @@ $$\text{PA} = \text{DS} \times 16 + \text{BX}$$
 
 设计者利用 $\text{ALE}$ 信号的高电平及下降沿，即可准确抓住 $T_1$ 状态，并控制外部锁存芯片（如常用的 **74LS373** 八进制 D 型锁存器）将复用引脚上的地址信号锁存并分离出来。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ===== 全讲总结整片(00:00-00:39:55) =====
 # 《微机原理与接口技术》精读教材与复习手册

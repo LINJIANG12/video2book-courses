@@ -1,3 +1,5 @@
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
 ### [00:02] 可视字符、非可视字符与光标回车换行控制
 
 在第一章我给大家讲过，在这门课的上机实践当中，要求大家掌握：

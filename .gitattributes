@@ -1,0 +1,3 @@
+# Generated Markdown and transcript text use trailing spaces for line structure.
+*.md whitespace=-trailing-space
+*.txt whitespace=-trailing-space

@@ -182,7 +182,8 @@ start:
 
 1. **堆栈段实际分配容量**：讲师仅口述“空间大小根据实际需求来定义”，板书中留空，未给出确切的字节/字分配数值。
 2. **中断服务子程序（ISR）的具体实现**：视频中仅提及“下面有中断服务子程序，有它的入口地址”，但代码尚未写出 ISR 的具体逻辑。
-3. **向量表的最终写入指令**：板书在写出 `mov bx, 4 * 0Bh` 后的下一步 `mov ...` 处视频结束，向 `[bx]` 与 `[bx+2]` 装填偏移地址与段地址的指令、向 8259A 读写 OCW1 的 I/O 端口指令均在后序内容中，本篇严格依从媒体边界不予臆测补全。
+3. **向量表的最终写入指令**：板书在写出 `mov bx, 4 * 0Bh` 后的下一步 `mov ...` 处视频结束，向 `[bx]` 与 `[bx+2]` 装填偏移地址与段地址的指令、向 8259A 读写 OCW1 的 I/O 端口指令均在后序内容中，本篇严格依从媒体边界不予臆测补全。This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
+
 根据所提供的音视频片段内容，严格遵循**事实边界**原则（不进行臆测与额外补写，未提及部分明确标注），整理出本讲义复习手册如下：
 
 ---

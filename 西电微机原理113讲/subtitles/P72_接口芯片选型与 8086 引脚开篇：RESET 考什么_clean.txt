@@ -71,6 +71,7 @@
 $$+5\text{V} \pm 10\%$$
 即电源供电电压在 $4.5\text{V} \sim 5.5\text{V}$ 范围之内，CPU 均能正常稳定工作。
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ### 8086 CPU 复位机制与存储器布局转录
 
@@ -247,6 +248,7 @@ JMP FAR PTR 标号
 * **05:45** 我要给它加一个高电平复位，就一加上电，是不是要复位一次？
 * **05:50** 那个高电平怎么产生？高电平怎么产生？怎么产生？
 
+This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).
 
 ===== 全讲总结(00:00-00:27:17) =====
 # 微机原理与接口技术精读教材与复习手册：总线缓冲、锁存器件与 8086 基础电气特性
