@@ -41,3 +41,7 @@ Thumbs.db
 .idea/
 *.swp
 __pycache__/
+
+# ---- 本地运维脚本（不入库） ----
+sync_course.py
+
