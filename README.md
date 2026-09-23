@@ -2,7 +2,20 @@
 
 十六门真实网课的**模块合辑全书 + 思维导图复习笔记 + 逐字稿**，全部由 [Video2Book](https://github.com/LINJIANG12/video2book) 从课程音频重构而成。
 
-> **在线阅读**：[**课程精读**](https://linjiang12.github.io/video2book-reader/) —— 把本仓库做成了书架，带章节目录、公式渲染与整册连续滚动。数学与数据库类课程的公式是开箱即用的，**不用像在 Typora 里那样手动勾选「内联公式」**。通读整册建议走这个入口。
+涵盖 Python 基础、前端 HTML5/CSS3、数据库系统、软件工程、微机原理与 8086 汇编、AI 大模型 NLP 等核心方向。每门课都拆成「模块合辑全书 + 思维导图复习笔记 + 逐字稿」体系，从逐讲精读到考前速查一路打通。看不完的长视频课，帮你变成随时能翻的高清教材。内容由 Video2Book 从真实课程音频重构，笔记支持 Markmap / XMind 脑图导入。
+
+> [!TIP]
+> ### 📖 在线阅读入口：[课程精读（video2book-reader）](https://linjiang12.github.io/video2book-reader/)
+>
+> [![在线阅读](https://img.shields.io/badge/立即访问-课程精读%20Web%20站-0f766e?style=for-the-badge&logo=safari&logoColor=white)](https://linjiang12.github.io/video2book-reader/)
+> [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-已部署上线-10b981?style=for-the-badge&logo=github&logoColor=white)](https://linjiang12.github.io/video2book-reader/)
+>
+> 本仓库已配套上线专属沉浸式 Web 阅读站，**通读整册强烈建议直接走在线入口**：
+>
+> - ⚡ **即开即读**：免克隆、免配置环境，书架式导航，整册连续平滑滚动；
+> - 📐 **公式开箱即用**：数学与数据库类课程的 KaTeX 复杂公式秒级渲染，**不用像在 Typora 里那样手动勾选「内联公式」**；
+> - 🧭 **Typora 标题自动编号**：正文与左侧大纲 1:1 联动章（`1.`）、节（`1.1`）、小节（`1.1.1`）层级编号；
+> - 📱 **多端全景自适应**：深度适配手机、平板与桌面 PC，代码块一键复制，支持标准宽与 95% 超宽满屏自由切换。
 
 本项目会持续增加与更新高质量课程，目前主要制作个人感兴趣的**计算机专业核心领域**（操作系统、软件工程、大模型全栈等）以及受众广泛的其他优质公开课。
 
@@ -75,7 +88,7 @@
 
 ## 阅读与工具
 
-**在线阅读**：用 [**课程精读**](https://linjiang12.github.io/video2book-reader/)（推荐，有书架与章节目录、公式开箱即用）；需要单文件时也可以直接在 GitHub 点开任意 `.md`，标题会自动生成目录锚点。
+**在线阅读（强烈推荐）**：直接访问 [**课程精读 Web 站**](https://linjiang12.github.io/video2book-reader/)。开箱即用的书架、章节层级大纲、公式秒级渲染与整册连续滚动，支持手机/平板/电脑自适应；需要单文件时也可以直接在 GitHub 点开任意 `.md`，标题会自动生成目录锚点。
 
 **克隆到本地**（仓库文本约 35 MB，音频未入库）：
 
