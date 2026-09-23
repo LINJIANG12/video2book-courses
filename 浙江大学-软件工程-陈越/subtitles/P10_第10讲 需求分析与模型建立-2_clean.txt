@@ -1,10 +1,3 @@
-- The language is Chinese (Mandarin) with some technical English terms (e.g., encapsulation, C, class, information hiding, message, reuse, data structures, header files `.h`, include, inheritance, superclass, subclasses, furniture, table, chair, desk, chable, multiple inheritance, graphical deck, card deck, draw, a card, override, transitive, scenario-based, use case, actor, testing,
-primary scenarios, secondary scenarios, SafeHome, homeowner, initialize, configure, set alarm, camera, surveillance, monitor, control, flow-oriented modeling, data flow diagram, IPO, input, process, output, external entity, graph, list of books borrowed, list of titles, refind/refinement, level 0, level 1, level 2, TA, research project, control flow, state diagram, event, interrupt, switch cases,
-if else, inactive, reset, run diagnostics, contact vendor, idle, arm, password, deactivate, sensor trigger, alarm responders, sound alarm, restart timer, class-based modeling, grammar, parser, attributes, manipulate, CRC cards, responsibility, collaborators, package, behavior model, sequence diagram, due date, etc.).
-
-Let's transcribe section by section accurately.
-
-00:00 - 01:00:
 看下 encapsulation，它的，我们说，它其实是把，它跟 C 的最大的区别是它把数据跟处理这些数据的函数绑在一个 class 里面。这样做有什么好处？
 那总的来说呢，它有做到一个 information hiding，
 信息隐藏的功能。
@@ -18,8 +11,6 @@ Information hiding 最大的好处就是说，你在里面改来改去，
 就是你要改了什么东西，它的影响不会那么大。
 然后呢，因为大家都通过这个 message 来互相地沟通，
 那么模块化就会比较好。模块跟模块之间的那个耦合、那个关系会变得比较简单。
-
-01:00 - 02:00:
 然后，另外呢，当然还有很重要的一点就是 reuse 会比较方便。
 reuse 会比较方便。你想想你如果是用 C 的话，
 那你，通常呢就是，一个编程的习惯，有些人的编程习惯我知道是这样，就他喜欢把所有的 data structures 放在一个 .h 文件里面，然后把所有其它的操作放在另一个 .h 文件里面。那你下次要用的时候，你要记得你要 copy 哪些东西，哪哪些 .h 是你要 include，
@@ -35,8 +26,6 @@ data structure 跟它相关的东西绑在一起，那你只要重用这个 clas
 你定义了一个比方说家具、furniture，
 下面呢有 table、有 chair、有 desk、还有 chable。
 Chable 是什么东西知道吗？
-
-02:00 - 03:00:
 据说以前老浙大是有 chable 的。
 就是它又是 chair 又是 table。
 是吧？它是一个椅子，当然它有扶手，
@@ -49,8 +38,6 @@ Chable 是什么东西知道吗？
 就是这些公共的属性都放到上面的一个 class，furniture 里面。
 然后下面呢，你只要根据自己的特点，你把它继承下来，也就是相当于把它 copy 下来，然后再戴上你自己的属性，就成为另外一个 class。
 那这个 inheritance 的这个机制，被形容为是一种非常安全地重用的模式。
-
-03:00 - 04:00:
 嗯，就是你想要重用一个 class 的时候，
 你不需要把那个 class 拿出来，然后直接把人家 class 里面的代码给改掉。你不需要这么做。
 你只需要 inheritance 继承一下，
@@ -74,8 +61,6 @@ Multiple inheritance 它是好处
 是它可以用户好舵家的那个东西。
 嗯，就是你这个人开发了这一块，那个人开发了那一块，然后我发现都可以用在我这儿来。
 然后它也可能会产生一些很危险的问题，那我们看这么一个例子。
-
-04:00 - 05:00:
 就比方说，
 你的，要求你去开发这么一个 graphical deck，
 就是图形化的那个打牌的游戏，纸牌游戏。
@@ -85,8 +70,6 @@ Multiple inheritance 它是好处
 你你用 TC 画一个图形界面你不是累死了嘛，对吧？
 它没有图形界面，然后它只是一些游戏的规则。
 那么它发现，
-
-05:00 - 06:00:
 它有古老的 card deck
 这个类是可以用的。Card deck 这个类呢，它告诉你所有纸牌游戏的规则。
 就是什么情况下谁比谁大，然后应该是怎么抽牌，怎么出牌。
@@ -107,8 +90,6 @@ Multiple inheritance 它是好处
 对吧？
 然后呢，它会碰到这么一个
 很搞的问题。
-
-06:00 - 07:00:
 就是，
 在它们两个 class 的那个 method 里面，
 它有重名的
@@ -138,8 +119,6 @@ Draw 的意思，
 就会产生冲突了，对吧？
 那你怎么解决这个方法呢？
 就怎么解决这个问题呢？
-
-07:00 - 08:00:
 当然一个办法呢是你可以用一下 overriding，但是这不是唯一的解决方案。
 你们 C++ 反正学过了，
 有兴趣的话呢，你可以自己下面去琢磨一下，有好多种办法去解决这个问题的。
@@ -156,11 +135,7 @@ Draw 的意思，
 但是如果是 multiple inheritance 的话，这个可传递性很可能被破坏掉。
 就是这点注意的。OK，
 那我们先休息五分钟，回来再继续。
-
-08:00 - 09:00:
 (Silence / break)
-
-09:00 - 10:00:
 然后后面的几种方法其实都是在刻画这个系统的使用，
 和这个系统运行的过程。那么一种呢是 scenario-based，就是基于这个 use case 的。
 Use case 呢我们在上一次课已经给大家大概地介绍过了。
@@ -175,8 +150,6 @@ Use case 就是描述
 使用系统的方法？
 这是一个核对用的。然后 use case 还在另外一个阶段很重要。
 在哪个阶段？
-
-10:00 - 11:00:
 想出来吗？
 除了在需求分析这一部分你要这个 use case 可以帮上很大的忙以外，
 还在什么阶段，在你开发的什么阶段你会觉得 use case 对你来说是很重要的一个东西？
@@ -317,17 +290,11 @@ OK，那这就是画的规矩。
 这是这个需求描述。
 那你能不能根据这个需求描述来画一个数据流图看看？
 给五分钟的时间，现在开始。
-
 (Students working, inaudible background chatter)
-
-22:44 - 22:54:
 不用翻书了，书上没有的啊。
 不是这本书上的。
 是另外一本书上的。
-
 (Students working, inaudible background chatter)
-
-23:25 - 23:55:
 那你肯定要有几个数据库了。
 最重要先想想你有哪几个圆饼要画，就是哪几个功能要画，然后有哪几个数据库是有关系的，先把数据库放在那儿。
 然后就看看这个输入
@@ -335,10 +302,7 @@ OK，那这就是画的规矩。
 它要怎么个弄法。
 它要从数据库里面读一些东西，对吧？
 然后它产生输出到哪里。
-
 (Students working, inaudible background chatter)
-
-25:40 - 26:27:
 你就是要想清楚啊，这个
 数据流图画它的目的
 是为了搞清楚一个数据是怎么从输入变成输出的。
@@ -352,17 +316,11 @@ OK，那这就是画的规矩。
 你要记得你这个数据流图是要用户能看得懂的。
 客户要看得懂，
 你不要写到人家看不懂。
-
 (Students working, inaudible background chatter)
-
-27:01 - 27:14:
 哎，五分钟到了。
 你们还要再需要一分钟吗？
 再给一分钟写名字。
-
 (Students writing names)
-
-27:54 - 28:54:
 好了，这个 discussion 我不收了。
 我预感到收上来会悲剧的。
 所以我不收了，我们直接来看一下答案好了啊。这也不一定是标准答案，你可以有别的画法。
@@ -389,8 +347,6 @@ OK，那这就是画的规矩。
 这么两个数据库加上一个书的书架，
 对吧？你要从
 这里面找 author，然后这里面找 title，然后找到它们公共的交集以后，从那个书架上
-
-30:00 - 31:00:
 去找到那个书的位置，然后把书得到。
 然后产生这样的输出。
 那你绘画了这以后呢，你 search by topics 就更简单一点了。
