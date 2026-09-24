@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "computer",
+      "name": "计算机"
+    },
+    {
+      "id": "computer.programming",
+      "name": "编程语言"
+    },
+    {
+      "id": "computer.frontend",
+      "name": "前端"
+    },
+    {
+      "id": "computer.database",
+      "name": "数据库"
+    },
+    {
+      "id": "computer.computer-basics",
+      "name": "计算机基础"
+    },
+    {
+      "id": "computer.computer-basics.networking",
+      "name": "计算机网络"
+    },
+    {
+      "id": "computer.computer-basics.operating-systems",
+      "name": "操作系统"
+    },
+    {
+      "id": "computer.embedded",
+      "name": "嵌入式 / 微机原理"
+    },
+    {
+      "id": "computer.software-engineering",
+      "name": "软件工程"
+    },
+    {
+      "id": "computer.ai",
+      "name": "人工智能"
+    },
+    {
+      "id": "computer.ai.llm",
+      "name": "大模型"
+    },
+    {
+      "id": "computer.ai.computer-vision",
+      "name": "计算机视觉"
+    },
+    {
+      "id": "computer.ai.nlp",
+      "name": "自然语言处理"
+    },
+    {
+      "id": "computer.ai.applications",
+      "name": "AI 应用"
+    },
+    {
+      "id": "computer.research-methods",
+      "name": "科研方法"
+    },
+    {
+      "id": "math",
+      "name": "数学"
+    },
+    {
+      "id": "math.calculus",
+      "name": "微积分"
+    },
+    {
+      "id": "math.multivariable",
+      "name": "多元微积分"
+    },
+    {
+      "id": "math.series",
+      "name": "级数"
+    },
+    {
+      "id": "postgraduate",
+      "name": "考研"
+    },
+    {
+      "id": "postgraduate.math",
+      "name": "考研数学"
+    },
+    {
+      "id": "postgraduate.408",
+      "name": "408"
+    },
+    {
+      "id": "postgraduate.408.networking",
+      "name": "408 · 计算机网络"
+    },
+    {
+      "id": "postgraduate.408.operating-systems",
+      "name": "408 · 操作系统"
+    },
+    {
+      "id": "civil-service",
+      "name": "考公"
+    },
+    {
+      "id": "civil-service.reasoning",
+      "name": "判断推理"
+    },
+    {
+      "id": "psychology-philosophy",
+      "name": "心理与哲学"
+    },
+    {
+      "id": "psychology-philosophy.psychology",
+      "name": "心理学"
+    },
+    {
+      "id": "psychology-philosophy.psychology.abnormal",
+      "name": "变态心理学"
+    },
+    {
+      "id": "psychology-philosophy.psychology.emotion",
+      "name": "情绪管理"
+    },
+    {
+      "id": "psychology-philosophy.psychology.positive",
+      "name": "积极心理学"
+    },
+    {
+      "id": "psychology-philosophy.philosophy",
+      "name": "哲学"
+    },
+    {
+      "id": "psychology-philosophy.philosophy.death",
+      "name": "死亡哲学"
+    },
+    {
+      "id": "language",
+      "name": "语言"
+    },
+    {
+      "id": "language.english",
+      "name": "英语"
+    },
+    {
+      "id": "language.english.grammar",
+      "name": "英语语法"
+    }
+  ],
+  "courses": {
+    "黑马程序员-Python-AI": {
+      "title": "黑马程序员：Python + AI 入门",
+      "direction": "Python 基础 · 零起点",
+      "category_paths": [
+        "computer.programming",
+        "computer.ai"
+      ],
+      "tags": [
+        "Python",
+        "AI",
+        "零基础"
+      ]
+    },
+    "pink老师-AI前端入门": {
+      "title": "pink老师：AI + 前端入门",
+      "direction": "前端 · HTML5 / CSS3",
+      "category_paths": [
+        "computer.frontend",
+        "computer.ai"
+      ],
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "AI 辅助开发"
+      ]
+    },
+    "MySQL数据库入门到大牛": {
+      "title": "MySQL：数据库入门到大牛",
+      "direction": "数据库 · 安装到优化",
+      "category_paths": [
+        "computer.database"
+      ],
+      "tags": [
+        "MySQL",
+        "工程实践"
+      ]
+    },
+    "数据库系统原理": {
+      "title": "数据库系统原理（DBMS）",
+      "direction": "数据库 · 原理与范式",
+      "category_paths": [
+        "computer.database"
+      ],
+      "tags": [
+        "关系模型",
+        "范式"
+      ]
+    },
+    "宋浩高等数学2.0版": {
+      "title": "宋浩《高等数学》2.0 版",
+      "direction": "高等数学 · 考研完整体系",
+      "category_paths": [
+        "math.calculus",
+        "math.multivariable",
+        "math.series",
+        "postgraduate.math"
+      ],
+      "tags": [
+        "考研数学",
+        "2.0 版"
+      ]
+    },
+    "宋浩高等数学同济版2024": {
+      "title": "宋浩《高等数学》同济版 2024",
+      "direction": "高等数学 · 教材章节精讲",
+      "category_paths": [
+        "math.calculus",
+        "math.multivariable",
+        "math.series"
+      ],
+      "tags": [
+        "同济教材",
+        "章节精讲"
+      ]
+    },
+    "浙江大学-软件工程-陈越": {
+      "title": "浙江大学：软件工程（陈越）",
+      "direction": "软件工程 · 公开课",
+      "category_paths": [
+        "computer.software-engineering"
+      ],
+      "tags": [
+        "公开课"
+      ]
+    },
+    "西电微机原理113讲": {
+      "title": "西电：微机原理与接口技术",
+      "direction": "微机原理 · 8086 汇编",
+      "category_paths": [
+        "computer.embedded"
+      ],
+      "tags": [
+        "8086",
+        "微机原理"
+      ]
+    },
+    "黑马程序员-AI大模型NLP": {
+      "title": "黑马程序员：AI 大模型 NLP",
+      "direction": "NLP · Transformer · PyTorch",
+      "category_paths": [
+        "computer.ai.nlp"
+      ],
+      "tags": [
+        "NLP",
+        "Transformer",
+        "PyTorch"
+      ]
+    },
+    "Stanford-CS336-从头构建大语言模型": {
+      "title": "Stanford CS336：从头构建大语言模型",
+      "direction": "大模型全栈 · 架构到对齐",
+      "category_paths": [
+        "computer.ai.llm"
+      ],
+      "tags": [
+        "大模型",
+        "训练与推理"
+      ]
+    },
+    "Stanford-CS231N-深度学习计算机视觉": {
+      "title": "Stanford CS231N：深度学习与计算机视觉",
+      "direction": "计算机视觉 · CNN 到多模态",
+      "category_paths": [
+        "computer.ai.computer-vision"
+      ],
+      "tags": [
+        "CNN",
+        "多模态"
+      ]
+    },
+    "2026版LangChain教程": {
+      "title": "2026版LangChain教程",
+      "direction": "大模型应用 · Agent 智能体与 RAG",
+      "category_paths": [
+        "computer.ai.applications"
+      ],
+      "tags": [
+        "Agent",
+        "RAG"
+      ]
+    },
+    "中科大计算机网络": {
+      "title": "中科大：计算机网络（自顶向下）",
+      "direction": "计算机网络 · 五层模型与习题",
+      "category_paths": [
+        "computer.computer-basics.networking",
+        "postgraduate.408.networking"
+      ],
+      "tags": [
+        "五层模型",
+        "习题"
+      ]
+    },
+    "南京大学-操作系统原理": {
+      "title": "南京大学：操作系统原理（蒋炎岩）",
+      "direction": "计算机底座 · 状态机与现代系统",
+      "category_paths": [
+        "computer.computer-basics.operating-systems",
+        "postgraduate.408.operating-systems"
+      ],
+      "tags": [
+        "状态机",
+        "并发",
+        "现代系统"
+      ]
+    },
+    "南京大学-生成式软件工程": {
+      "title": "南京大学：生成式软件工程【连载中】",
+      "direction": "前沿先导 · AI 智能体与软件工程",
+      "category_paths": [
+        "computer.software-engineering",
+        "computer.ai"
+      ],
+      "tags": [
+        "AI 智能体",
+        "生成式开发"
+      ]
+    },
+    "南京大学-科研筑基": {
+      "title": "南京大学：科研筑基（结丹期教授）",
+      "direction": "方法论 · 计算机科研心法与实践",
+      "category_paths": [
+        "computer.research-methods"
+      ],
+      "tags": [
+        "科研入门",
+        "论文与学术写作"
+      ]
+    },
+    "北京大学-变态心理学": {
+      "title": "北京大学：变态心理学",
+      "direction": "心理学 · 精神病理与临床案例",
+      "category_paths": [
+        "psychology-philosophy.psychology.abnormal"
+      ],
+      "tags": [
+        "临床案例",
+        "精神病理"
+      ]
+    },
+    "公考逻辑判断推理": {
+      "title": "公考逻辑：判断推理系统课",
+      "direction": "考公 · 判断推理题型方法论",
+      "category_paths": [
+        "civil-service.reasoning"
+      ],
+      "tags": [
+        "行测",
+        "判断推理"
+      ]
+    },
+    "英语语法精讲合集": {
+      "title": "英语语法精讲合集",
+      "direction": "英语语法 · 从体系到句法实战",
+      "category_paths": [
+        "language.english.grammar"
+      ],
+      "tags": [
+        "英语",
+        "句法"
+      ]
+    },
+    "SQL两小时半入门": {
+      "title": "SQL 两小时半入门",
+      "direction": "数据库 · SQL 零基础速成",
+      "category_paths": [
+        "computer.database"
+      ],
+      "tags": [
+        "SQL",
+        "零基础"
+      ]
+    },
+    "王爽汇编语言": {
+      "title": "王爽：汇编语言",
+      "direction": "汇编语言 · 8086 基础",
+      "category_paths": [
+        "computer.embedded",
+        "computer.programming"
+      ],
+      "tags": [
+        "汇编",
+        "8086"
+      ]
+    },
+    "零基础学习汇编": {
+      "title": "零基础学习汇编",
+      "direction": "汇编语言 · 零基础 8086",
+      "category_paths": [
+        "computer.embedded",
+        "computer.programming"
+      ],
+      "tags": [
+        "汇编",
+        "零基础"
+      ]
+    },
+    "3小时前端入门": {
+      "title": "3小时前端入门",
+      "direction": "前端 · HTML / CSS / JS",
+      "category_paths": [
+        "computer.frontend"
+      ],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "零基础"
+      ]
+    },
+    "耶鲁大学-死亡哲学": {
+      "title": "耶鲁大学：死亡哲学",
+      "direction": "哲学 · 死亡 · 灵魂与人格",
+      "category_paths": [
+        "psychology-philosophy.philosophy.death"
+      ],
+      "tags": [
+        "死亡",
+        "灵魂",
+        "人格"
+      ]
+    },
+    "耶鲁大学-情绪管理": {
+      "title": "耶鲁大学：情绪管理",
+      "direction": "心理学 · 情绪觉察、共情与调节",
+      "category_paths": [
+        "psychology-philosophy.psychology.emotion"
+      ],
+      "tags": [
+        "社会情感学习",
+        "共情",
+        "情绪调节"
+      ]
+    },
+    "哈佛大学-积极心理学": {
+      "title": "哈佛大学：积极心理学",
+      "direction": "心理学 · 幸福、关系、习惯与自我实现",
+      "category_paths": [
+        "psychology-philosophy.psychology.positive"
+      ],
+      "tags": [
+        "幸福感",
+        "关系",
+        "自我成长"
+      ]
+    }
+  }
+}
