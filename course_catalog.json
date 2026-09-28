@@ -144,6 +144,30 @@
     {
       "id": "language.english.grammar",
       "name": "英语语法"
+    },
+    {
+      "id": "civil-service.language",
+      "name": "言语理解"
+    },
+    {
+      "id": "civil-service.data-analysis",
+      "name": "资料分析"
+    },
+    {
+      "id": "law",
+      "name": "法学"
+    },
+    {
+      "id": "law.criminal",
+      "name": "刑法"
+    },
+    {
+      "id": "medicine",
+      "name": "医学"
+    },
+    {
+      "id": "medicine.anatomy",
+      "name": "解剖学"
     }
   ],
   "courses": {
@@ -328,15 +352,16 @@
       "publish_path": "计算机/计算机基础/操作系统/南京大学-操作系统原理"
     },
     "南京大学-生成式软件工程": {
-      "title": "南京大学：生成式软件工程【连载中】",
-      "direction": "前沿先导 · AI 智能体与软件工程",
+      "title": "南京大学：生成式软件工程",
+      "direction": "AI 时代的软件工程 · 连载中",
       "category_paths": [
-        "computer.software-engineering",
-        "computer.ai"
+        "computer.software-engineering"
       ],
       "tags": [
-        "AI 智能体",
-        "生成式开发"
+        "软件工程",
+        "提示词工程",
+        "AI 协作",
+        "连载"
       ],
       "publish_path": "计算机/软件工程/南京大学-生成式软件工程"
     },
@@ -478,6 +503,125 @@
         "自我成长"
       ],
       "publish_path": "心理与哲学/心理学/积极心理学/哈佛大学-积极心理学"
+    },
+    "浙江大学-数据结构-陈越": {
+      "title": "浙江大学：数据结构与算法",
+      "direction": "数据结构 · 算法基础",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "数据结构",
+        "算法",
+        "线性表",
+        "树",
+        "图",
+        "查找",
+        "排序"
+      ],
+      "publish_path": "计算机/计算机基础/浙江大学-数据结构-陈越"
+    },
+    "尚硅谷5天上手MySQL-韦峰": {
+      "title": "尚硅谷：5 天上手 MySQL 实战",
+      "direction": "数据库 · 从安装到实战",
+      "category_paths": [
+        "computer.database"
+      ],
+      "tags": [
+        "MySQL",
+        "SQL",
+        "数据库",
+        "工程实践"
+      ],
+      "publish_path": "计算机/数据库/尚硅谷5天上手MySQL-韦峰"
+    },
+    "判断推理行测系统课-刘文超": {
+      "title": "判断推理《行测》系统课",
+      "direction": "考公判断推理 · 系统课",
+      "category_paths": [
+        "civil-service.reasoning"
+      ],
+      "tags": [
+        "行测",
+        "判断推理",
+        "图形推理",
+        "逻辑判断",
+        "考公"
+      ],
+      "publish_path": "考公/判断推理/判断推理行测系统课-刘文超"
+    },
+    "言语理解与表达系统课-阿里木江": {
+      "title": "言语理解与表达系统课",
+      "direction": "考公言语 · 系统课",
+      "category_paths": [
+        "civil-service.language"
+      ],
+      "tags": [
+        "行测",
+        "言语理解",
+        "片段阅读",
+        "逻辑填空",
+        "考公"
+      ],
+      "publish_path": "考公/言语理解/言语理解与表达系统课-阿里木江"
+    },
+    "资料分析行测系统课-刘文超": {
+      "title": "资料分析《行测》系统课",
+      "direction": "考公资料分析 · 系统课",
+      "category_paths": [
+        "civil-service.data-analysis"
+      ],
+      "tags": [
+        "行测",
+        "资料分析",
+        "增长率",
+        "速算",
+        "考公"
+      ],
+      "publish_path": "考公/资料分析/资料分析行测系统课-刘文超"
+    },
+    "2025法考客观题刑法-众合柏浪涛": {
+      "title": "2025 法考客观题·刑法（众合柏浪涛）",
+      "direction": "法考刑法 · 系统精讲",
+      "category_paths": [
+        "law.criminal"
+      ],
+      "tags": [
+        "法考",
+        "刑法",
+        "法条",
+        "案例分析"
+      ],
+      "publish_path": "法学/刑法/2025法考客观题刑法-众合柏浪涛"
+    },
+    "CMU11-768-AI-Agents": {
+      "title": "CMU 11-768 AI Agents（中配）",
+      "direction": "AI Agent · 英文原声中配",
+      "category_paths": [
+        "computer.ai.applications"
+      ],
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "提示工程",
+        "CMU"
+      ],
+      "publish_path": "计算机/人工智能/AI应用/CMU11-768-AI-Agents"
+    },
+    "系统解剖学全集-霍琨": {
+      "title": "系统解剖学全集（霍琨）",
+      "direction": "人体解剖学 · 医学基础",
+      "category_paths": [
+        "medicine.anatomy"
+      ],
+      "tags": [
+        "解剖学",
+        "医学",
+        "人体结构",
+        "影像"
+      ],
+      "publish_path": "医学/解剖学/系统解剖学全集-霍琨"
     }
   }
 }
