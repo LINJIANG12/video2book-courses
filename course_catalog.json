@@ -180,6 +180,10 @@
     {
       "id": "law.jurisprudence",
       "name": "法理学"
+    },
+    {
+      "id": "computer.computer-basics.architecture",
+      "name": "体系结构"
     }
   ],
   "courses": {
@@ -694,6 +698,38 @@
         "法治理论"
       ],
       "publish_path": "法学/法理学/2027法硕精讲一本通法理学-杜洪波"
+    },
+    "UCB-CS61B-数据结构": {
+      "title": "UC Berkeley CS61B：数据结构与抽象数据类型",
+      "direction": "数据结构 · Java 教学经典课",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "数据结构",
+        "算法",
+        "Java",
+        "Berkeley",
+        "CS61B"
+      ],
+      "publish_path": "计算机/计算机基础/UCB-CS61B-数据结构"
+    },
+    "UCB-CS61C-计算机体系结构": {
+      "title": "UC Berkeley CS61C：计算机体系结构（中文版）",
+      "direction": "计算机体系结构 · 从 C 到 RISC-V 流水线",
+      "category_paths": [
+        "computer.computer-basics.architecture"
+      ],
+      "tags": [
+        "计算机体系结构",
+        "RISC-V",
+        "缓存",
+        "流水线",
+        "并行计算",
+        "Berkeley"
+      ],
+      "publish_path": "计算机/计算机基础/体系结构/UCB-CS61C-计算机体系结构"
     }
   }
 }
