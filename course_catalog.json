@@ -184,6 +184,10 @@
     {
       "id": "computer.computer-basics.architecture",
       "name": "体系结构"
+    },
+    {
+      "id": "math.probability",
+      "name": "概率统计"
     }
   ],
   "courses": {
@@ -730,6 +734,55 @@
         "Berkeley"
       ],
       "publish_path": "计算机/计算机基础/体系结构/UCB-CS61C-计算机体系结构"
+    },
+    "宋浩概率论与数理统计2.0版": {
+      "title": "宋浩《概率论与数理统计》2.0 版",
+      "direction": "概率统计 · 考研与统计基础",
+      "category_paths": [
+        "math.probability",
+        "postgraduate.math"
+      ],
+      "tags": [
+        "概率论",
+        "数理统计",
+        "随机变量",
+        "参数估计",
+        "假设检验",
+        "宋浩"
+      ],
+      "publish_path": "数学/概率统计/宋浩概率论与数理统计2.0版"
+    },
+    "UCB-CS61A-SICP": {
+      "title": "UC Berkeley CS61A：《计算机程序的结构与解释》精翻",
+      "direction": "程序抽象 · SICP 中配精讲",
+      "category_paths": [
+        "computer.programming"
+      ],
+      "tags": [
+        "SICP",
+        "函数式编程",
+        "Scheme",
+        "程序抽象",
+        "Berkeley",
+        "CS61A"
+      ],
+      "publish_path": "计算机/编程语言/UCB-CS61A-SICP"
+    },
+    "Agentic-AI设计模式实战": {
+      "title": "20 种 Agentic AI 设计模式实战课",
+      "direction": "AI Agent · 设计模式与生产架构",
+      "category_paths": [
+        "computer.ai.applications"
+      ],
+      "tags": [
+        "AI Agent",
+        "设计模式",
+        "LLM",
+        "多智能体",
+        "生产架构",
+        "中英双语"
+      ],
+      "publish_path": "计算机/人工智能/AI应用/Agentic-AI设计模式实战"
     }
   }
 }
