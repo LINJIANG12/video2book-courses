@@ -803,6 +803,21 @@
         "哈佛"
       ],
       "publish_path": "计算机/计算机基础/哈佛大学-CS50x计算机科学导论"
+    },
+    "Harness-Agent智能体工程": {
+      "title": "Harness-Agent 新一代智能体工程",
+      "direction": "AI Agent · Harness 工程方法论与 LangChain 实战",
+      "category_paths": [
+        "computer.ai.applications"
+      ],
+      "tags": [
+        "AI Agent",
+        "Harness 工程",
+        "LangChain",
+        "RAG",
+        "LLM"
+      ],
+      "publish_path": "计算机/人工智能/AI应用/Harness-Agent智能体工程"
     }
   }
 }
