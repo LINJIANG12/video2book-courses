@@ -783,6 +783,26 @@
         "中英双语"
       ],
       "publish_path": "计算机/人工智能/AI应用/Agentic-AI设计模式实战"
+    },
+    "哈佛大学-CS50x计算机科学导论": {
+      "title": "哈佛大学 CS50x：计算机科学导论（2026）",
+      "direction": "计算机科学导论 · 从 Scratch 零基础到 Flask Web 应用",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "计算机科学导论",
+        "C",
+        "Python",
+        "SQL",
+        "算法",
+        "数据结构",
+        "Web",
+        "Flask",
+        "哈佛"
+      ],
+      "publish_path": "计算机/计算机基础/哈佛大学-CS50x计算机科学导论"
     }
   }
 }
