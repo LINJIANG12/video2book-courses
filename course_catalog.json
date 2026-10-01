@@ -188,6 +188,10 @@
     {
       "id": "math.probability",
       "name": "概率统计"
+    },
+    {
+      "id": "math.linear-algebra",
+      "name": "线性代数"
     }
   ],
   "courses": {
@@ -818,6 +822,40 @@
         "LLM"
       ],
       "publish_path": "计算机/人工智能/AI应用/Harness-Agent智能体工程"
+    },
+    "宋浩线性代数3.0版": {
+      "title": "宋浩《线性代数》3.0 版",
+      "direction": "线性代数 · 考研完整体系",
+      "category_paths": [
+        "math.linear-algebra",
+        "postgraduate.math"
+      ],
+      "tags": [
+        "考研数学",
+        "线性代数",
+        "行列式",
+        "矩阵",
+        "特征值",
+        "二次型"
+      ],
+      "publish_path": "数学/线性代数/宋浩线性代数3.0版"
+    },
+    "计算机408真题逐题精讲": {
+      "title": "计算机 408 真题逐题精讲（2009-2025）",
+      "direction": "考研 408 · 09-25 年真题逐题精讲",
+      "category_paths": [
+        "postgraduate.408",
+        "computer.computer-basics"
+      ],
+      "tags": [
+        "考研408",
+        "真题",
+        "数据结构",
+        "计算机组成原理",
+        "操作系统",
+        "计算机网络"
+      ],
+      "publish_path": "考研/408/计算机408真题逐题精讲"
     }
   }
 }
