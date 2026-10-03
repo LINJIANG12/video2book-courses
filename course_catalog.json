@@ -888,6 +888,40 @@
         "零基础"
       ],
       "publish_path": "计算机/嵌入式/硬件工程师入门教程"
+    },
+    "尚硅谷Golang入门到实战": {
+      "title": "尚硅谷：Golang 入门到实战教程",
+      "direction": "Go 语言 · 从语法基础到并发与即时通讯实战",
+      "category_paths": [
+        "computer.programming"
+      ],
+      "tags": [
+        "Go",
+        "Golang",
+        "并发",
+        "协程",
+        "Redis",
+        "网络编程",
+        "数据结构"
+      ],
+      "publish_path": "计算机/编程语言/尚硅谷Golang入门到实战"
+    },
+    "黑马程序员Java+AI零基础": {
+      "title": "黑马程序员：Java 零基础全套（2026 版）",
+      "direction": "Java · 语法到面向对象与集合框架",
+      "category_paths": [
+        "computer.programming",
+        "computer.ai"
+      ],
+      "tags": [
+        "Java",
+        "零基础",
+        "面向对象",
+        "集合框架",
+        "JVM",
+        "算法训练"
+      ],
+      "publish_path": "计算机/编程语言/黑马程序员Java+AI零基础"
     }
   }
 }
