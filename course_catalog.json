@@ -922,6 +922,78 @@
         "算法训练"
       ],
       "publish_path": "计算机/编程语言/黑马程序员Java+AI零基础"
+    },
+    "大厂数据结构算法Java上篇": {
+      "title": "大厂必备数据结构与算法（Java）上篇",
+      "direction": "数据结构 · 从复杂度到平衡树",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "数据结构",
+        "算法",
+        "Java",
+        "二叉树",
+        "红黑树",
+        "递归",
+        "复杂度"
+      ],
+      "publish_path": "计算机/计算机基础/大厂数据结构算法Java上篇"
+    },
+    "大厂数据结构算法Java下篇": {
+      "title": "大厂必备数据结构与算法（Java）下篇",
+      "direction": "数据结构 · 从 B 树到缓存与综合设计题",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "数据结构",
+        "算法",
+        "Java",
+        "B树",
+        "排序算法",
+        "图论",
+        "动态规划",
+        "缓存"
+      ],
+      "publish_path": "计算机/计算机基础/大厂数据结构算法Java下篇"
+    },
+    "黑马程序员Redis入门到实战": {
+      "title": "黑马程序员：Redis 入门到实战",
+      "direction": "Redis · 缓存实战到底层原理与分布式架构",
+      "category_paths": [
+        "computer.database"
+      ],
+      "tags": [
+        "Redis",
+        "缓存",
+        "分布式锁",
+        "消息队列",
+        "主从复制",
+        "分片集群",
+        "Java"
+      ],
+      "publish_path": "计算机/数据库/黑马程序员Redis入门到实战"
+    },
+    "黑马程序员若依框架AI项目": {
+      "title": "黑马程序员：若依框架 + AI 项目开发实战",
+      "direction": "Java 全栈实战 · 用 AI 辅助改造若依框架真实项目",
+      "category_paths": [
+        "computer.programming",
+        "computer.ai"
+      ],
+      "tags": [
+        "若依",
+        "RuoYi",
+        "SpringBoot",
+        "Vue3",
+        "AI辅助开发",
+        "RBAC",
+        "全栈"
+      ],
+      "publish_path": "计算机/编程语言/黑马程序员若依框架AI项目"
     }
   }
 }
