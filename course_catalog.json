@@ -186,12 +186,20 @@
       "name": "体系结构"
     },
     {
+      "id": "computer.computer-basics.signal-processing",
+      "name": "信号与系统"
+    },
+    {
       "id": "math.probability",
       "name": "概率统计"
     },
     {
       "id": "math.linear-algebra",
       "name": "线性代数"
+    },
+    {
+      "id": "postgraduate.408.signal-processing",
+      "name": "408 · 信号与系统"
     }
   ],
   "courses": {
@@ -994,6 +1002,28 @@
         "全栈"
       ],
       "publish_path": "计算机/编程语言/黑马程序员若依框架AI项目"
+    },
+    "浙江大学-信号与系统-胡浩基": {
+      "title": "浙江大学：信号与系统（胡浩基）",
+      "direction": "信号与系统 · 傅里叶变换与拉普拉斯/Z 变换",
+      "category_paths": [
+        "computer.computer-basics.signal-processing",
+        "postgraduate.408.signal-processing"
+      ],
+      "tags": [
+        "信号与系统",
+        "卷积",
+        "傅里叶级数",
+        "傅里叶变换",
+        "DFT",
+        "FFT",
+        "采样定理",
+        "拉普拉斯变换",
+        "Z变换",
+        "MATLAB",
+        "浙江大学"
+      ],
+      "publish_path": "计算机/计算机基础/信号与系统/浙江大学-信号与系统-胡浩基"
     }
   }
 }
