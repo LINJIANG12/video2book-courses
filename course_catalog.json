@@ -1060,6 +1060,29 @@
         "考研基础"
       ],
       "publish_path": "数学/概率统计/Kira概率论与数理统计零基础精讲"
+    },
+    "信号与系统考研精讲": {
+      "title": "信号与系统考研精讲",
+      "direction": "信号与系统 · 考研全程（时域分析→傅里叶→拉氏→z变换→状态变量）",
+      "category_paths": [
+        "computer.computer-basics.signal-processing",
+        "postgraduate.408.signal-processing",
+        "postgraduate.math"
+      ],
+      "tags": [
+        "信号与系统",
+        "考研",
+        "卷积",
+        "傅里叶级数",
+        "傅里叶变换",
+        "抽样定理",
+        "拉普拉斯变换",
+        "z变换",
+        "系统函数",
+        "状态变量分析",
+        "零极点"
+      ],
+      "publish_path": "计算机/计算机基础/信号与系统/信号与系统考研精讲"
     }
   }
 }
