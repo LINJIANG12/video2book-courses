@@ -70,6 +70,10 @@
       "name": "微积分"
     },
     {
+      "id": "math.analysis",
+      "name": "数学分析"
+    },
+    {
       "id": "math.multivariable",
       "name": "多元微积分"
     },
@@ -172,6 +176,10 @@
     {
       "id": "medicine.anatomy",
       "name": "解剖学"
+    },
+    {
+      "id": "medicine.physiology",
+      "name": "生理学"
     },
     {
       "id": "law.constitutional",
@@ -1183,6 +1191,65 @@
         "Actor-Critic"
       ],
       "publish_path": "计算机/人工智能/强化学习的数学原理"
+    },
+    "生理学-罗自强": {
+      "title": "生理学（罗自强·国家精品课程）",
+      "direction": "生理学 · 细胞/血液/循环/呼吸/消化/泌尿/神经/内分泌 全系统",
+      "category_paths": [
+        "medicine.physiology"
+      ],
+      "tags": [
+        "生理学",
+        "细胞生理",
+        "血液",
+        "血液循环",
+        "呼吸",
+        "消化与吸收",
+        "泌尿",
+        "神经系统",
+        "内分泌",
+        "罗自强"
+      ],
+      "publish_path": "医学/生理学/生理学-罗自强"
+    },
+    "算法设计与分析-屈婉玲": {
+      "title": "算法设计与分析（屈婉玲·北大）",
+      "direction": "算法 · 复杂度分析/分治/动态规划/贪心/回溯与分支限界",
+      "category_paths": [
+        "computer.computer-basics"
+      ],
+      "tags": [
+        "算法设计与分析",
+        "算法",
+        "复杂度",
+        "分治",
+        "动态规划",
+        "贪心",
+        "回溯",
+        "分支限界",
+        "屈婉玲"
+      ],
+      "publish_path": "计算机/计算机基础/算法设计与分析-屈婉玲"
+    },
+    "数学分析-陈纪修": {
+      "title": "数学分析（陈纪修）",
+      "direction": "数学分析 · 极限/一元微积分/级数/多元微积分/场论/含参积分/Fourier级数",
+      "category_paths": [
+        "math.analysis"
+      ],
+      "tags": [
+        "数学分析",
+        "实数理论",
+        "极限",
+        "微分学",
+        "积分学",
+        "级数",
+        "多元微积分",
+        "场论",
+        "Fourier级数",
+        "陈纪修"
+      ],
+      "publish_path": "数学/数学分析/数学分析-陈纪修"
     }
   }
 }
