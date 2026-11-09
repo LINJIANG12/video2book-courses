@@ -236,6 +236,34 @@
     {
       "id": "computer.graphics.tools",
       "name": "图形研发工具"
+    },
+    {
+      "id": "econ",
+      "name": "经济金融"
+    },
+    {
+      "id": "humanities",
+      "name": "人文历史"
+    },
+    {
+      "id": "econ.economics",
+      "name": "经济学"
+    },
+    {
+      "id": "econ.economics.macroeconomics",
+      "name": "宏观经济学"
+    },
+    {
+      "id": "econ.economics.microeconomics",
+      "name": "微观经济学"
+    },
+    {
+      "id": "econ.accounting",
+      "name": "会计"
+    },
+    {
+      "id": "humanities.literary-theory",
+      "name": "文学理论"
     }
   ],
   "courses": {
@@ -1618,6 +1646,61 @@
         "文本生成"
       ],
       "publish_path": "计算机/人工智能/黑马程序员-神经网络与深度学习"
+    },
+    "宏观经济学重难点精讲-小卷毛": {
+      "title": "宏观经济学重难点精讲合集（小卷毛）",
+      "direction": "经济学 · 宏观",
+      "category_paths": [
+        "econ.economics.macroeconomics"
+      ],
+      "tags": [
+        "宏观经济学",
+        "IS-LM",
+        "AD-AS",
+        "蒙代尔-弗莱明"
+      ],
+      "publish_path": "经济金融/经济学/宏观经济学/宏观经济学重难点精讲-小卷毛"
+    },
+    "微观经济学重难点精讲-小卷毛": {
+      "title": "微观经济学重难点精讲合集（小卷毛）",
+      "direction": "经济学 · 微观",
+      "category_paths": [
+        "econ.economics.microeconomics"
+      ],
+      "tags": [
+        "微观经济学",
+        "消费者理论",
+        "市场结构",
+        "博弈论"
+      ],
+      "publish_path": "经济金融/经济学/微观经济学/微观经济学重难点精讲-小卷毛"
+    },
+    "会计学基础-北大": {
+      "title": "会计学基础（北京大学公开课）",
+      "direction": "会计学 · 零基础",
+      "category_paths": [
+        "econ.accounting"
+      ],
+      "tags": [
+        "会计",
+        "复式记账",
+        "财务报表"
+      ],
+      "publish_path": "经济金融/会计/会计学基础-北大"
+    },
+    "文学理论第一季-杨宁": {
+      "title": "文学理论课程全集 第一季（杨宁）",
+      "direction": "文学理论 · 人文通识",
+      "category_paths": [
+        "humanities.literary-theory"
+      ],
+      "tags": [
+        "文学理论",
+        "本质论",
+        "叙事学",
+        "接受美学"
+      ],
+      "publish_path": "人文历史/文学理论/文学理论第一季-杨宁"
     }
   }
 }
