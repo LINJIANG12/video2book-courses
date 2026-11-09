@@ -212,6 +212,30 @@
     {
       "id": "postgraduate.408.signal-processing",
       "name": "408 · 信号与系统"
+    },
+    {
+      "id": "computer.graphics",
+      "name": "计算机图形学"
+    },
+    {
+      "id": "computer.graphics.rendering",
+      "name": "渲染"
+    },
+    {
+      "id": "computer.graphics.modeling",
+      "name": "几何建模与处理"
+    },
+    {
+      "id": "computer.graphics.animation",
+      "name": "动画与物理仿真"
+    },
+    {
+      "id": "computer.graphics.engine",
+      "name": "游戏引擎"
+    },
+    {
+      "id": "computer.graphics.tools",
+      "name": "图形研发工具"
     }
   ],
   "courses": {
@@ -1273,6 +1297,295 @@
         "求臻"
       ],
       "publish_path": "医学/生物化学/生物化学-求臻"
+    },
+    "GAMES001-图形学中的数学": {
+      "title": "GAMES001：图形学中的数学",
+      "direction": "图形学中的数学 · 线性代数/计算几何/三维旋转/SVD/PCA/插值拟合/傅里叶与球谐/概率论/微分几何/优化/拓扑",
+      "category_paths": [
+        "computer.graphics"
+      ],
+      "tags": [
+        "图形学",
+        "线性代数",
+        "矩阵分解",
+        "计算几何",
+        "四元数",
+        "SVD",
+        "PCA",
+        "插值拟合",
+        "傅里叶变换",
+        "球谐函数",
+        "概率论",
+        "微分几何",
+        "优化",
+        "拓扑"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES001-图形学中的数学"
+    },
+    "GAMES002-图形学研发基础工具": {
+      "title": "GAMES002：图形学研发基础工具",
+      "direction": "图形学研发工具链 · Linux/Shell、Windows/CMD/PowerShell、SSH 远程开发、Git/GitHub、C++ 编译构建与包管理、编辑器与写作排版、建站、三维与仿真渲染软件",
+      "category_paths": [
+        "computer.graphics.tools",
+        "computer.programming"
+      ],
+      "tags": [
+        "研发工具",
+        "Linux",
+        "Shell",
+        "PowerShell",
+        "SSH",
+        "Git",
+        "GitHub",
+        "CMake",
+        "包管理",
+        "Vim",
+        "VS Code",
+        "Markdown",
+        "LaTeX",
+        "建站",
+        "三维软件",
+        "渲染软件"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES002-图形学研发基础工具"
+    },
+    "GAMES101-现代计算机图形学入门": {
+      "title": "GAMES101：现代计算机图形学入门（闫令琪）",
+      "direction": "计算机图形学入门 · 变换与投影/光栅化与抗锯齿/着色与纹理/几何表示/光线追踪/路径追踪/材质/相机与颜色/动画",
+      "category_paths": [
+        "computer.graphics",
+        "computer.graphics.rendering"
+      ],
+      "tags": [
+        "计算机图形学",
+        "渲染管线",
+        "变换",
+        "光栅化",
+        "抗锯齿",
+        "着色",
+        "纹理映射",
+        "光线追踪",
+        "路径追踪",
+        "BRDF",
+        "相机",
+        "颜色",
+        "动画",
+        "闫令琪"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES101-现代计算机图形学入门"
+    },
+    "GAMES102-几何建模与处理": {
+      "title": "GAMES102：几何建模与处理",
+      "direction": "几何建模与处理 · 数据拟合/三次样条/Bezier/B样条/NURBS/细分与隐式曲线/离散微分几何/微分坐标/曲面去噪/参数化/几何映射/曲面重建",
+      "category_paths": [
+        "computer.graphics.modeling",
+        "computer.graphics"
+      ],
+      "tags": [
+        "几何建模",
+        "曲线曲面",
+        "B样条",
+        "NURBS",
+        "细分曲面",
+        "离散微分几何",
+        "微分坐标",
+        "曲面去噪",
+        "参数化",
+        "网格简化",
+        "几何映射",
+        "曲面重建"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES102-几何建模与处理"
+    },
+    "GAMES103-基于物理的计算机动画入门": {
+      "title": "GAMES103：基于物理的计算机动画入门",
+      "direction": "物理动画 · 数值积分/刚体动力学与碰撞/约束系统/弹簧质点/有限元/碰撞处理/流体模拟（欧拉与粒子）/高度场水面",
+      "category_paths": [
+        "computer.graphics.animation",
+        "computer.graphics"
+      ],
+      "tags": [
+        "物理动画",
+        "刚体动力学",
+        "碰撞检测",
+        "约束求解",
+        "弹簧质点",
+        "有限元",
+        "流体模拟",
+        "SPH",
+        "Navier-Stokes",
+        "高度场",
+        "Shallow Wave"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES103-基于物理的计算机动画入门"
+    },
+    "GAMES104-现代游戏引擎": {
+      "title": "GAMES104：现代游戏引擎——从入门到实践",
+      "direction": "现代游戏引擎 · 引擎架构/游戏世界/渲染实践与管线/动画/物理/粒子音效/工具链/Gameplay/网络架构/ECS/Lumen/Nanite/Piccolo 源码",
+      "category_paths": [
+        "computer.graphics.engine",
+        "computer.graphics"
+      ],
+      "tags": [
+        "游戏引擎",
+        "引擎架构",
+        "渲染管线",
+        "地形大气云",
+        "动画系统",
+        "物理系统",
+        "粒子与音效",
+        "引擎工具链",
+        "Gameplay",
+        "网络同步",
+        "ECS",
+        "Lumen",
+        "Nanite",
+        "Piccolo"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES104-现代游戏引擎"
+    },
+    "GAMES105-计算机角色动画基础": {
+      "title": "GAMES105：计算机角色动画基础",
+      "direction": "角色动画 · 三维数学/运动学与关键帧/数据驱动与动作匹配/动作先验与神经网络/蒙皮与形变/物理仿真/步态与强化学习控制",
+      "category_paths": [
+        "computer.graphics.animation",
+        "computer.graphics"
+      ],
+      "tags": [
+        "角色动画",
+        "运动学",
+        "IK",
+        "关键帧",
+        "动作匹配",
+        "Motion Matching",
+        "蒙皮",
+        "物理仿真",
+        "强化学习",
+        "步态生成"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES105-计算机角色动画基础"
+    },
+    "GAMES106-现代图形绘制流水线": {
+      "title": "GAMES106：现代图形绘制流水线原理与实践",
+      "direction": "图形绘制流水线 · 多概率着色/性能分析/几何处理与模型减面/纹理生成压缩/着色器优化/LOD 与流水线新进展",
+      "category_paths": [
+        "computer.graphics.rendering",
+        "computer.graphics"
+      ],
+      "tags": [
+        "绘制流水线",
+        "多概率着色",
+        "性能分析",
+        "几何处理",
+        "模型减面",
+        "纹理压缩",
+        "着色器",
+        "LOD"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES106-现代图形绘制流水线"
+    },
+    "GAMES201-高级物理引擎实战": {
+      "title": "GAMES201：高级物理引擎实战指南 2020",
+      "direction": "物理引擎实战 · 拉格朗日视角/欧拉视角流体/线性弹性有限元与拓扑优化/混合视角/物质点法 MPM/高性能物理引擎",
+      "category_paths": [
+        "computer.graphics.engine",
+        "computer.graphics.animation"
+      ],
+      "tags": [
+        "物理引擎",
+        "拉格朗日视角",
+        "欧拉视角",
+        "流体仿真",
+        "有限元",
+        "拓扑优化",
+        "物质点法",
+        "MPM",
+        "Taichi",
+        "高性能计算"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES201-高级物理引擎实战"
+    },
+    "GAMES202-高质量实时渲染": {
+      "title": "GAMES202：高质量实时渲染",
+      "direction": "实时渲染 · 实时阴影/实时环境光照与预计算/实时全局光照/基于物理的实时着色/实时光线追踪与前沿",
+      "category_paths": [
+        "computer.graphics.rendering",
+        "computer.graphics"
+      ],
+      "tags": [
+        "实时渲染",
+        "实时阴影",
+        "环境光照",
+        "预计算",
+        "实时全局光照",
+        "PBR",
+        "实时光线追踪",
+        "降噪",
+        "闫令琪"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES202-高质量实时渲染"
+    },
+    "GAMES301-曲面参数化": {
+      "title": "GAMES301：曲面参数化",
+      "direction": "曲面参数化 · 无翻转方法/全局单射与 Atlas/参数化网格生成/光滑映射/调和与共形参数化/曲面对应/高阶网格与产业应用",
+      "category_paths": [
+        "computer.graphics.modeling",
+        "computer.graphics"
+      ],
+      "tags": [
+        "曲面参数化",
+        "无翻转",
+        "单射",
+        "Atlas",
+        "调和映射",
+        "共形参数化",
+        "锥奇异点",
+        "曲面对应",
+        "高阶网格",
+        "UV 展开"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES301-曲面参数化"
+    },
+    "GAMES302-等几何分析": {
+      "title": "GAMES302：等几何分析",
+      "direction": "等几何分析 · 样条建模/有限元与计算域参数化/泊松与线弹性超弹性求解/形状与拓扑优化/体细分一体化/深度学习 IGA",
+      "category_paths": [
+        "computer.graphics.modeling",
+        "computer.graphics"
+      ],
+      "tags": [
+        "等几何分析",
+        "IGA",
+        "样条建模",
+        "有限元",
+        "计算域参数化",
+        "形状优化",
+        "拓扑优化",
+        "体细分",
+        "深度学习"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES302-等几何分析"
+    },
+    "GAMES401-泛动引擎": {
+      "title": "GAMES401：泛动引擎",
+      "direction": "泛动引擎 · 引擎架构与 GPU 并行/几何工具/刚体动力学并行/SPH 与近场动力学/插件体系与 Vulkan 计算/CAE 力学与软件集成",
+      "category_paths": [
+        "computer.graphics.engine",
+        "computer.graphics"
+      ],
+      "tags": [
+        "泛动引擎",
+        "PeriDyno",
+        "GPU 并行",
+        "刚体动力学",
+        "SPH",
+        "近场动力学",
+        "Vulkan",
+        "CAE",
+        "有限元",
+        "插件体系"
+      ],
+      "publish_path": "计算机/计算机图形学/GAMES401-泛动引擎"
     }
   }
 }
