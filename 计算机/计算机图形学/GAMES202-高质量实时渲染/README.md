@@ -4,7 +4,7 @@ GAMES202 是闫令琪的高质量实时渲染课：实时阴影、实时环境�
 
 - **原视频**：[GAMES202-高质量实时渲染](https://www.bilibili.com/video/BV1YK4y1T7yY/) — Bilibili，BV1YK4y1T7yY
 - **全 14 集**，已产出 5 册模块全书、6 篇复习笔记、28 份逐字稿
-- **内容覆盖**：P03（Lecture3 Real-time Shadows） 因原视频无中文字幕暂未整编；其余分集与全 28 块完整成稿
+- 全 28 块已完整成稿
 
 ## 怎么学
 - **先复习 GAMES101 的渲染方程与 BRDF**，否则实时近似看不懂。
