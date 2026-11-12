@@ -264,6 +264,10 @@
     {
       "id": "humanities.literary-theory",
       "name": "文学理论"
+    },
+    {
+      "id": "math.highschool",
+      "name": "高中数学"
     }
   ],
   "courses": {
@@ -1717,6 +1721,49 @@
         "数据流分析"
       ],
       "publish_path": "计算机/计算机基础/编译原理-哈工大"
+    },
+    "离散数学-东北大": {
+      "title": "离散数学（东北大学公开课）",
+      "direction": "离散数学 · 计算机数学基础",
+      "category_paths": [
+        "computer.computer-basics"
+      ],
+      "tags": [
+        "离散数学",
+        "数理逻辑",
+        "图论",
+        "代数结构"
+      ],
+      "publish_path": "计算机/计算机基础/离散数学-东北大"
+    },
+    "计算机组成原理-哈工大": {
+      "title": "计算机组成原理（哈工大刘宏伟）",
+      "direction": "计算机组成原理 · 408 主科",
+      "category_paths": [
+        "computer.computer-basics.architecture",
+        "postgraduate.408"
+      ],
+      "tags": [
+        "组成原理",
+        "408",
+        "CPU",
+        "指令系统"
+      ],
+      "publish_path": "计算机/计算机基础/计算机组成原理-哈工大"
+    },
+    "高中数学基础与解法全集": {
+      "title": "高中数学基础与解法全集",
+      "direction": "高中数学 · 基础到选必",
+      "category_paths": [
+        "math.highschool"
+      ],
+      "tags": [
+        "高中数学",
+        "必修选必",
+        "基础",
+        "解题方法"
+      ],
+      "publish_path": "数学/高中数学/高中数学基础与解法全集"
     }
   }
 }
