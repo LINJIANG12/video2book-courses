@@ -268,6 +268,10 @@
     {
       "id": "math.highschool",
       "name": "高中数学"
+    },
+    {
+      "id": "psychology-philosophy.philosophy.western",
+      "name": "西方哲学史"
     }
   ],
   "courses": {
@@ -1779,6 +1783,21 @@
         "抒情性作品"
       ],
       "publish_path": "人文历史/文学理论/文学理论第二季-杨宁"
+    },
+    "西方哲学史-张志伟": {
+      "title": "西方哲学史（张志伟·人大公开课）",
+      "direction": "西方哲学史 · 人文通识",
+      "category_paths": [
+        "psychology-philosophy.philosophy.western"
+      ],
+      "tags": [
+        "西方哲学史",
+        "古希腊",
+        "康德",
+        "黑格尔",
+        "海德格尔"
+      ],
+      "publish_path": "心理与哲学/哲学/西方哲学史/西方哲学史-张志伟"
     }
   }
 }
