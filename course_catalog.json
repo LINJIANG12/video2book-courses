@@ -272,6 +272,14 @@
     {
       "id": "psychology-philosophy.philosophy.western",
       "name": "西方哲学史"
+    },
+    {
+      "id": "humanities.history",
+      "name": "历史"
+    },
+    {
+      "id": "humanities.history.ancient-china",
+      "name": "中国古代史"
     }
   ],
   "courses": {
@@ -1798,6 +1806,25 @@
         "海德格尔"
       ],
       "publish_path": "心理与哲学/哲学/西方哲学史/西方哲学史-张志伟"
+    },
+    "中国古代史-北大": {
+      "title": "中国古代史（北大公开课·172讲）",
+      "direction": "中国古代史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "中国古代史",
+        "先秦",
+        "秦汉",
+        "魏晋南北朝",
+        "隋唐",
+        "宋辽金",
+        "元朝",
+        "明朝",
+        "清朝"
+      ],
+      "publish_path": "人文历史/中国古代史/中国古代史-北大"
     }
   }
 }
