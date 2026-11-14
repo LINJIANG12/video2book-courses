@@ -1790,6 +1790,85 @@
         "子图嵌套"
       ],
       "publish_path": "计算机/人工智能/AI应用/黑马程序员-LangGraph多Agent"
+    },
+    "两晋十六国-安州牧": {
+      "title": "《两晋十六国》看懂后三国时代174年的乱世风雨（安州牧）",
+      "direction": "两晋十六国史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "两晋十六国",
+        "东晋",
+        "前秦",
+        "淝水之战",
+        "刘宋"
+      ],
+      "publish_path": "人文历史/中国古代史/两晋十六国-安州牧"
+    },
+    "南北朝-安州牧": {
+      "title": "一口气看完170年的乱世南北朝（安州牧）",
+      "direction": "南北朝史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "南北朝",
+        "刘宋",
+        "萧齐",
+        "侯景之乱",
+        "隋朝统一"
+      ],
+      "publish_path": "人文历史/中国古代史/南北朝-安州牧"
+    },
+    "文学理论第二季-杨宁": {
+      "title": "文学理论课程全集 第二季（杨宁）",
+      "direction": "文学理论 · 人文通识",
+      "category_paths": [
+        "humanities.literary-theory"
+      ],
+      "tags": [
+        "文学理论",
+        "本体论",
+        "作者之死",
+        "阐释学",
+        "抒情性作品"
+      ],
+      "publish_path": "人文历史/文学理论/文学理论第二季-杨宁"
+    },
+    "西方哲学史-张志伟": {
+      "title": "西方哲学史（张志伟·人大公开课）",
+      "direction": "西方哲学史 · 人文通识",
+      "category_paths": [
+        "psychology-philosophy.philosophy.western"
+      ],
+      "tags": [
+        "西方哲学史",
+        "古希腊",
+        "康德",
+        "黑格尔",
+        "海德格尔"
+      ],
+      "publish_path": "心理与哲学/哲学/西方哲学史/西方哲学史-张志伟"
+    },
+    "中国古代史-北大": {
+      "title": "中国古代史（北大公开课·172讲）",
+      "direction": "中国古代史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "中国古代史",
+        "先秦",
+        "秦汉",
+        "魏晋南北朝",
+        "隋唐",
+        "宋辽金",
+        "元朝",
+        "明朝",
+        "清朝"
+      ],
+      "publish_path": "人文历史/中国古代史/中国古代史-北大"
     }
   }
 }
