@@ -1825,6 +1825,36 @@
         "清朝"
       ],
       "publish_path": "人文历史/中国古代史/中国古代史-北大"
+    },
+    "两晋十六国-安州牧": {
+      "title": "《两晋十六国》看懂后三国时代174年的乱世风雨（安州牧）",
+      "direction": "两晋十六国史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "两晋十六国",
+        "东晋",
+        "前秦",
+        "淝水之战",
+        "刘宋"
+      ],
+      "publish_path": "人文历史/中国古代史/两晋十六国-安州牧"
+    },
+    "南北朝-安州牧": {
+      "title": "一口气看完170年的乱世南北朝（安州牧）",
+      "direction": "南北朝史 · 人文通识",
+      "category_paths": [
+        "humanities.history.ancient-china"
+      ],
+      "tags": [
+        "南北朝",
+        "刘宋",
+        "萧齐",
+        "侯景之乱",
+        "隋朝统一"
+      ],
+      "publish_path": "人文历史/中国古代史/南北朝-安州牧"
     }
   }
 }
