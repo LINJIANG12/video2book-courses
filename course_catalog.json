@@ -1760,6 +1760,36 @@
         "解题方法"
       ],
       "publish_path": "数学/高中数学/高中数学基础与解法全集"
+    },
+    "黑马程序员-LangGraph多Agent": {
+      "title": "黑马程序员：Python + FastAPI + LangGraph 多 Agent 企业级 AI 应用",
+      "direction": "企业级 AI 应用全流程 · Linux/Docker 部署 → FastAPI 分层工程 → LangChain Agent/Tool Calling/MCP → PostgreSQL 会话记忆与 SSE 流式对话 → RAG 与 Milvus 混合检索 → LangGraph 多 Agent 编排",
+      "category_paths": [
+        "computer.ai.applications"
+      ],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "LangChain",
+        "Multi-Agent",
+        "Agent",
+        "Tool Calling",
+        "MCP",
+        "RAG",
+        "Milvus",
+        "向量检索",
+        "混合检索",
+        "SSE",
+        "PostgreSQL",
+        "Pydantic",
+        "Docker",
+        "Linux",
+        "Nginx",
+        "意图识别",
+        "子图嵌套"
+      ],
+      "publish_path": "计算机/人工智能/AI应用/黑马程序员-LangGraph多Agent"
     }
   }
 }
