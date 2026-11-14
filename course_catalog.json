@@ -1869,6 +1869,21 @@
         "清朝"
       ],
       "publish_path": "人文历史/中国古代史/中国古代史-北大"
+    },
+    "UCB-CS61B-数据结构": {
+      "title": "UCB CS61B 数据结构（Fall 2025 中文版）",
+      "direction": "数据结构与算法 · 计算机核心",
+      "category_paths": [
+        "computer.computer-basics",
+        "computer.programming"
+      ],
+      "tags": [
+        "数据结构",
+        "Java",
+        "CS61B",
+        "伯克利"
+      ],
+      "publish_path": "计算机/计算机基础/UCB-CS61B-数据结构"
     }
   }
 }
