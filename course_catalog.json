@@ -280,6 +280,10 @@
     {
       "id": "humanities.history.ancient-china",
       "name": "中国古代史"
+    },
+    {
+      "id": "humanities.baijiajiangtan",
+      "name": "百家讲坛"
     }
   ],
   "courses": {
@@ -1884,6 +1888,25 @@
         "伯克利"
       ],
       "publish_path": "计算机/计算机基础/UCB-CS61B-数据结构"
+    },
+    "赵玉平-百家讲坛系列": {
+      "title": "赵玉平《百家讲坛》系列合集（十季合辑）",
+      "direction": "历史人物与管理智慧 · 人文通识",
+      "category_paths": [
+        "humanities.baijiajiangtan"
+      ],
+      "tags": [
+        "百家讲坛",
+        "赵玉平",
+        "曹操",
+        "司马懿",
+        "刘备",
+        "孙权",
+        "水浒",
+        "自我管理",
+        "选人用人"
+      ],
+      "publish_path": "人文历史/百家讲坛/赵玉平-百家讲坛系列"
     }
   }
 }
